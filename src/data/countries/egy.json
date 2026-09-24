@@ -1,0 +1,17 @@
+{
+  "id": "egy", "iso2": "EG", "entity_type": "sovereign_state",
+  "name_sl": "Egipt", "name_sl_genitive": "Egipta",
+  "capital_sl": "Kairo", "region": "africa", "subregion_sl": "Severna Afrika",
+  "population": "112 M", "language_sl": "Arabščina", "currency_sl": "Funt (E£)",
+  "coords": { "lat": 26.8206, "lng": 30.8025 },
+  "flag_meaning_sl": "Rdeča-bela-črna zastava z zlatim orlom na sredini.",
+  "crest_meaning_sl": "Savdinov orel drži trak z imenom države.",
+  "hotspots": [
+    { "x": 50, "y": 50, "title_sl": "Savdinov orel", "desc_sl": "Simbol arabske enotnosti." }
+  ],
+  "trivia_sl": ["Piramide v Gizi so ene najstarejših grajenih struktur na svetu.", "Nil je najdaljša reka na svetu."],
+  "flag_file": "egy.svg", "crest_file": "egy.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/eg.svg", "https://upload.wikimedia.org/wikipedia/commons/a/a6/Coat_of_arms_of_Egypt_%28Official%29.svg"],
+  "last_reviewed": "2026-09-24"
+}

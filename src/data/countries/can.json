@@ -1,0 +1,17 @@
+{
+  "id": "can", "iso2": "CA", "entity_type": "sovereign_state",
+  "name_sl": "Kanada", "name_sl_genitive": "Kanade",
+  "capital_sl": "Ottawa", "region": "north_america", "subregion_sl": "Severna Amerika",
+  "population": "40 M", "language_sl": "Angleščina in francoščina", "currency_sl": "Dolar (C$)",
+  "coords": { "lat": 56.1304, "lng": -106.3468 },
+  "flag_meaning_sl": "Rdeč javorjev list na belem kvadratu med dvema rdečima pasovoma.",
+  "crest_meaning_sl": "Kraljevi grb z levom in samorogom, geslo 'Od morja do morja'.",
+  "hotspots": [
+    { "x": 50, "y": 50, "title_sl": "Javorjev list", "desc_sl": "Nacionalni simbol Kanade že od 18. stoletja." }
+  ],
+  "trivia_sl": ["Kanada ima več jezer kot vse druge države skupaj.", "Javorjev sirup je eden njenih znamenitih izdelkov."],
+  "flag_file": "can.svg", "crest_file": "can.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/ca.svg", "https://upload.wikimedia.org/wikipedia/commons/c/cf/Coat_of_arms_of_Canada.svg"],
+  "last_reviewed": "2026-09-24"
+}

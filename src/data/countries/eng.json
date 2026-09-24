@@ -1,0 +1,17 @@
+{
+  "id": "eng", "iso2": "GB-ENG", "entity_type": "fifa_member_non_sovereign", "status_badge_sl": "Del Združenega kraljestva",
+  "name_sl": "Anglija", "name_sl_genitive": "Anglije",
+  "capital_sl": "London", "region": "europe", "subregion_sl": "Zahodna Evropa",
+  "population": "56 M", "language_sl": "Angleščina", "currency_sl": "Funt (£)",
+  "coords": { "lat": 52.3555, "lng": -1.1743 },
+  "flag_meaning_sl": "Zastava svetega Jurija - rdeč križ na belem ozadju, ena najstarejših zastav na svetu.",
+  "crest_meaning_sl": "Trije zlati levi na rdečem ščitu - znani kot 'Trije levi', simbol angleških kraljev že od 12. stoletja.",
+  "hotspots": [
+    { "x": 50, "y": 50, "title_sl": "Trije levi", "desc_sl": "Simbol angleške nogometne reprezentance in kraljeve družine." }
+  ],
+  "trivia_sl": ["Moderna pravila nogometa so nastala v Angliji leta 1863.", "Anglija ima svojo nogometno reprezentanco, čeprav ni samostojna država."],
+  "flag_file": "eng.svg", "crest_file": "eng.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/gb-eng.svg", "https://upload.wikimedia.org/wikipedia/commons/9/9a/Royal_Arms_of_England_%281198-1340%29.svg"],
+  "last_reviewed": "2026-09-24"
+}

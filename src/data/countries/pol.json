@@ -1,0 +1,17 @@
+{
+  "id": "pol", "iso2": "PL", "entity_type": "sovereign_state",
+  "name_sl": "Poljska", "name_sl_genitive": "Poljske",
+  "capital_sl": "Varšava", "region": "europe", "subregion_sl": "Srednja Evropa",
+  "population": "37,7 M", "language_sl": "Poljščina", "currency_sl": "Zlot (zł)",
+  "coords": { "lat": 51.9194, "lng": 19.1451 },
+  "flag_meaning_sl": "Bela in rdeča vodoravna pasova.",
+  "crest_meaning_sl": "Beli orel z zlato krono na rdečem ščitu.",
+  "hotspots": [
+    { "x": 50, "y": 50, "title_sl": "Beli orel", "desc_sl": "Po legendi ga je ustanovitelj Lech videl gnezditi in tam ustanovil prestolnico." }
+  ],
+  "trivia_sl": ["Krakovsko staro mestno jedro je eno najlepših v Evropi.", "V gozdovih Poljske živijo prosti evropski bizoni."],
+  "flag_file": "pol.svg", "crest_file": "pol.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/pl.svg", "https://upload.wikimedia.org/wikipedia/commons/9/9e/Coat_of_arms_of_Poland-official3.svg"],
+  "last_reviewed": "2026-09-24"
+}

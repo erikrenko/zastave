@@ -1,0 +1,17 @@
+{
+  "id": "nor", "iso2": "NO", "entity_type": "sovereign_state",
+  "name_sl": "Norveška", "name_sl_genitive": "Norveške",
+  "capital_sl": "Oslo", "region": "europe", "subregion_sl": "Severna Evropa",
+  "population": "5,5 M", "language_sl": "Norveščina", "currency_sl": "Krona (kr)",
+  "coords": { "lat": 60.472, "lng": 8.4689 },
+  "flag_meaning_sl": "Rdeča zastava z modro-belim skandinavskim križem, ki združuje barve Danske in Švedske.",
+  "crest_meaning_sl": "Zlati kronani lev s sekiro na rdečem ščitu.",
+  "hotspots": [
+    { "x": 50, "y": 50, "title_sl": "Lev s sekiro", "desc_sl": "Simbol norveške kraljeve dinastije." }
+  ],
+  "trivia_sl": ["Norveška je znana po fjordih.", "Velja za domovino smučanja."],
+  "flag_file": "nor.svg", "crest_file": "nor.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/no.svg", "https://upload.wikimedia.org/wikipedia/commons/d/d9/Coat_of_arms_of_Norway.svg"],
+  "last_reviewed": "2026-09-24"
+}

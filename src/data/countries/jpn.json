@@ -1,0 +1,30 @@
+{
+  "id": "jpn",
+  "iso2": "JP",
+  "entity_type": "sovereign_state",
+  "name_sl": "Japonska",
+  "name_sl_genitive": "Japonske",
+  "capital_sl": "Tokio",
+  "region": "asia",
+  "subregion_sl": "Vzhodna Azija",
+  "population": "125,1 M",
+  "language_sl": "Japonščina",
+  "currency_sl": "Jen (¥)",
+  "coords": { "lat": 36.2048, "lng": 138.2529 },
+  "flag_meaning_sl": "Zastava prikazuje rdeč krog na belem ozadju, ki predstavlja vzhajajoče sonce.",
+  "crest_meaning_sl": "Japonska uporablja cesarski pečat v obliki cvetoče krizanteme.",
+  "hotspots": [
+    { "x": 50, "y": 50, "title_sl": "Krizantema", "desc_sl": "Zlati cvet s 16 cvetnimi listi je uradni pečat cesarja." }
+  ],
+  "trivia_sl": [
+    "Hitri vlaki Shinkansen vozijo s hitrostjo več kot 320 km/h.",
+    "Na Japonskem je več kot 5 milijonov prodajnih avtomatov."
+  ],
+  "flag_file": "jpn.svg",
+  "crest_file": "jpn.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/jp.svg"],
+  "last_reviewed": "2026-09-23"
+}

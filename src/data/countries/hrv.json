@@ -1,0 +1,18 @@
+{
+  "id": "hrv", "iso2": "HR", "entity_type": "sovereign_state",
+  "name_sl": "Hrvaška", "name_sl_genitive": "Hrvaške",
+  "capital_sl": "Zagreb", "region": "europe", "subregion_sl": "Južna Evropa",
+  "population": "3,9 M", "language_sl": "Hrvaščina", "currency_sl": "Evro (€)",
+  "coords": { "lat": 45.1, "lng": 15.2 },
+  "flag_meaning_sl": "Rdeče-bela-modra zastava s šahovnico na sredini.",
+  "crest_meaning_sl": "Rdeče-beli šahovski ščit, nad njim pet manjših grbov hrvaških pokrajin.",
+  "hotspots": [
+    { "x": 50, "y": 55, "title_sl": "Šahovnica", "desc_sl": "Simbol Hrvaške, star več stoletij." },
+    { "x": 50, "y": 25, "title_sl": "Pet grbov", "desc_sl": "Predstavljajo pet hrvaških zgodovinskih pokrajin." }
+  ],
+  "trivia_sl": ["V Dubrovniku so snemali Igro prestolov.", "Hrvaška ima več kot 1.000 otokov."],
+  "flag_file": "hrv.svg", "crest_file": "hrv.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/hr.svg", "https://upload.wikimedia.org/wikipedia/commons/1/1c/Coat_of_arms_of_Croatia.svg"],
+  "last_reviewed": "2026-09-24"
+}

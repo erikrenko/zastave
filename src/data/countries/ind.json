@@ -1,0 +1,18 @@
+{
+  "id": "ind", "iso2": "IN", "entity_type": "sovereign_state",
+  "name_sl": "Indija", "name_sl_genitive": "Indije",
+  "capital_sl": "New Delhi", "region": "asia", "subregion_sl": "Južna Azija",
+  "population": "1,43 milijarde", "language_sl": "Hindijščina in angleščina", "currency_sl": "Rupija (₹)",
+  "coords": { "lat": 20.5937, "lng": 78.9629 },
+  "flag_meaning_sl": "Oranžna-bela-zelena zastava z modrim kolesom (Ashoka Chakra) na sredini.",
+  "crest_meaning_sl": "Štirje levi, ki stojijo hrbet ob hrbtu na kolesu, z napisom 'Resnica sama zmaga'.",
+  "hotspots": [
+    { "x": 50, "y": 40, "title_sl": "Štirje levi", "desc_sl": "Simbolizirajo moč, pogum in zaupanje." },
+    { "x": 50, "y": 75, "title_sl": "Kolo (chakra)", "desc_sl": "Predstavlja zakon in gibanje naprej." }
+  ],
+  "trivia_sl": ["Šah je bil izumljen v Indiji.", "Taj Mahal je eden najbolj znanih spomenikov na svetu."],
+  "flag_file": "ind.svg", "crest_file": "ind.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/in.svg", "https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg"],
+  "last_reviewed": "2026-09-24"
+}

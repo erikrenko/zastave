@@ -1,0 +1,18 @@
+{
+  "id": "chn", "iso2": "CN", "entity_type": "sovereign_state",
+  "name_sl": "Kitajska", "name_sl_genitive": "Kitajske",
+  "capital_sl": "Peking", "region": "asia", "subregion_sl": "Vzhodna Azija",
+  "population": "1,41 milijarde", "language_sl": "Kitajščina", "currency_sl": "Juan (¥)",
+  "coords": { "lat": 35.8617, "lng": 104.1954 },
+  "flag_meaning_sl": "Rdeča zastava s petimi zlatimi zvezdami - velika predstavlja stranko, štiri manjše ljudstvo.",
+  "crest_meaning_sl": "Grb prikazuje vrata Tiananmen, obdana s klasi žita in zobnikom.",
+  "hotspots": [
+    { "x": 50, "y": 40, "title_sl": "Vrata Tiananmen", "desc_sl": "Simbol kitajske revolucije." },
+    { "x": 50, "y": 75, "title_sl": "Klasi žita", "desc_sl": "Predstavljajo kmete in delavce." }
+  ],
+  "trivia_sl": ["Kitajski zid je dolg več kot 20.000 km.", "Kitajska je izumila papir, tiskanje in kompas."],
+  "flag_file": "chn.svg", "crest_file": "chn.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/cn.svg", "https://upload.wikimedia.org/wikipedia/commons/c/ca/National_Emblem_of_the_People%27s_Republic_of_China.svg"],
+  "last_reviewed": "2026-09-24"
+}

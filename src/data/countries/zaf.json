@@ -1,0 +1,18 @@
+{
+  "id": "zaf", "iso2": "ZA", "entity_type": "sovereign_state",
+  "name_sl": "Južna Afrika", "name_sl_genitive": "Južne Afrike",
+  "capital_sl": "Pretoria", "region": "africa", "subregion_sl": "Južna Afrika",
+  "population": "60 M", "language_sl": "11 uradnih jezikov", "currency_sl": "Rand (R)",
+  "coords": { "lat": -30.5595, "lng": 22.9375 },
+  "flag_meaning_sl": "Edina zastava na svetu s šestimi barvami, ki združuje barve nekdanjih političnih skupin.",
+  "crest_meaning_sl": "Sekretarska ptica, sloni okli, cvet protea in klasje - geslo pomeni 'Enotnost v raznolikosti'.",
+  "hotspots": [
+    { "x": 50, "y": 30, "title_sl": "Sekretarska ptica", "desc_sl": "Razprostrte peruti predstavljajo vzpon naroda." },
+    { "x": 50, "y": 70, "title_sl": "Sloni okli", "desc_sl": "Simbolizirajo modrost, moč in neskončnost." }
+  ],
+  "trivia_sl": ["Južna Afrika ima kar tri prestolnice.", "Nelson Mandela je bil prvi črni predsednik države."],
+  "flag_file": "zaf.svg", "crest_file": "zaf.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/za.svg", "https://upload.wikimedia.org/wikipedia/commons/b/be/Coat_of_arms_of_South_Africa.svg"],
+  "last_reviewed": "2026-09-24"
+}

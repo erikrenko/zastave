@@ -1,0 +1,18 @@
+{
+  "id": "rus", "iso2": "RU", "entity_type": "sovereign_state",
+  "name_sl": "Rusija", "name_sl_genitive": "Rusije",
+  "capital_sl": "Moskva", "region": "europe", "subregion_sl": "Vzhodna Evropa",
+  "population": "144 M", "language_sl": "Ruščina", "currency_sl": "Rubelj (₽)",
+  "coords": { "lat": 61.524, "lng": 105.3188 },
+  "flag_meaning_sl": "Bela-modra-rdeča vodoravna trobarvnica.",
+  "crest_meaning_sl": "Zlati dvoglavi orel s krono, žezlom in kroglo, na prsih sveti Jurij ubija zmaja.",
+  "hotspots": [
+    { "x": 50, "y": 40, "title_sl": "Dvoglavi orel", "desc_sl": "Star simbol ruske carske oblasti." },
+    { "x": 50, "y": 70, "title_sl": "Sveti Jurij", "desc_sl": "Prikazan, kako s kopjem ubija zmaja." }
+  ],
+  "trivia_sl": ["Rusija je največja država na svetu po površini.", "Transsibirska železnica je najdaljša na svetu."],
+  "flag_file": "rus.svg", "crest_file": "rus.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/ru.svg", "https://upload.wikimedia.org/wikipedia/commons/f/f6/Coat_of_Arms_of_the_Russian_Federation.svg"],
+  "last_reviewed": "2026-09-24"
+}

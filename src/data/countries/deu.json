@@ -1,0 +1,30 @@
+{
+  "id": "deu",
+  "iso2": "DE",
+  "entity_type": "sovereign_state",
+  "name_sl": "Nemčija",
+  "name_sl_genitive": "Nemčije",
+  "capital_sl": "Berlin",
+  "region": "europe",
+  "subregion_sl": "Zahodna Evropa",
+  "population": "84,3 M",
+  "language_sl": "Nemščina",
+  "currency_sl": "Evro (€)",
+  "coords": { "lat": 51.1657, "lng": 10.4515 },
+  "flag_meaning_sl": "Nemška zastava ima tri vodoravne pasove: črnega, rdečega in zlato-rumenega.",
+  "crest_meaning_sl": "Grb prikazuje zveznega orla, enega najstarejših državnih simbolov v Evropi.",
+  "hotspots": [
+    { "x": 50, "y": 50, "title_sl": "Zvezni orel", "desc_sl": "Orel simbolizira moč, svobodo in dolgo zgodovino." }
+  ],
+  "trivia_sl": [
+    "V Nemčiji stoji več kot 20.000 gradov.",
+    "Nemški Autobahn na nekaterih odsekih nima omejitve hitrosti."
+  ],
+  "flag_file": "deu.svg",
+  "crest_file": "deu.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": true,
+  "has_historical_flags": true,
+  "source_urls": ["https://flagcdn.com/de.svg", "https://upload.wikimedia.org/wikipedia/commons/d/da/Coat_of_arms_of_Germany.svg"],
+  "last_reviewed": "2026-09-23"
+}

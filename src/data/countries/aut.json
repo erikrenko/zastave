@@ -1,0 +1,18 @@
+{
+  "id": "aut", "iso2": "AT", "entity_type": "sovereign_state",
+  "name_sl": "Avstrija", "name_sl_genitive": "Avstrije",
+  "capital_sl": "Dunaj", "region": "europe", "subregion_sl": "Srednja Evropa",
+  "population": "9 M", "language_sl": "Nemščina", "currency_sl": "Evro (€)",
+  "coords": { "lat": 47.5162, "lng": 14.5501 },
+  "flag_meaning_sl": "Rdeče-bela-rdeča zastava, ena najstarejših na svetu.",
+  "crest_meaning_sl": "Črni orel s ščitom, s srpom in kladivom v krempljih ter pretrgano verigo.",
+  "hotspots": [
+    { "x": 50, "y": 40, "title_sl": "Črni orel", "desc_sl": "Simbol avstrijske republike." },
+    { "x": 50, "y": 75, "title_sl": "Pretrgana veriga", "desc_sl": "Predstavlja osvoboditev po drugi svetovni vojni." }
+  ],
+  "trivia_sl": ["Dunaj je bil dom skladatelja Mozarta.", "Večino Avstrije prekrivajo Alpe."],
+  "flag_file": "aut.svg", "crest_file": "aut.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/at.svg", "https://upload.wikimedia.org/wikipedia/commons/1/14/Coat_of_arms_of_Austria.svg"],
+  "last_reviewed": "2026-09-24"
+}

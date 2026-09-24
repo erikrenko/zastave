@@ -1,0 +1,32 @@
+{
+  "id": "ita",
+  "iso2": "IT",
+  "entity_type": "sovereign_state",
+  "name_sl": "Italija",
+  "name_sl_genitive": "Italije",
+  "capital_sl": "Rim",
+  "region": "europe",
+  "subregion_sl": "Južna Evropa",
+  "population": "58,9 M",
+  "language_sl": "Italijanščina",
+  "currency_sl": "Evro (€)",
+  "coords": { "lat": 41.8719, "lng": 12.5674 },
+  "flag_meaning_sl": "Italijanska trikolora ima zeleni, beli in rdeči pas. Zelena predstavlja griče in naravo, bela zasnežene Alpe, rdeča pogum in zgodovino.",
+  "crest_meaning_sl": "Grb prikazuje belo zvezdo, jeklen zobnik in oljčno ter hrastovo vejo.",
+  "hotspots": [
+    { "x": 50, "y": 48, "title_sl": "Bela zvezda", "desc_sl": "Starodavni simbol Italije, ki predstavlja enotnost naroda." },
+    { "x": 50, "y": 68, "title_sl": "Jekleni zobnik", "desc_sl": "Predstavlja delo, napredek in industrijo Italije." },
+    { "x": 25, "y": 60, "title_sl": "Oljčna veja", "desc_sl": "Oljčna vejica simbolizira mir in prijateljstvo." }
+  ],
+  "trivia_sl": [
+    "Pica je bila izumljena v Neaplju.",
+    "Rimski Kolosej je star več kot 1.900 let."
+  ],
+  "flag_file": "ita.svg",
+  "crest_file": "ita.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/it.svg", "https://upload.wikimedia.org/wikipedia/commons/0/00/Emblem_of_Italy.svg"],
+  "last_reviewed": "2026-09-23"
+}

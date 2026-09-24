@@ -1,0 +1,30 @@
+{
+  "id": "bra",
+  "iso2": "BR",
+  "entity_type": "sovereign_state",
+  "name_sl": "Brazilija",
+  "name_sl_genitive": "Brazilije",
+  "capital_sl": "Brasília",
+  "region": "south_america",
+  "subregion_sl": "Južna Amerika",
+  "population": "214 M",
+  "language_sl": "Portugalščina",
+  "currency_sl": "Real (R$)",
+  "coords": { "lat": -14.235, "lng": -51.9253 },
+  "flag_meaning_sl": "Zelena barva predstavlja deževni gozd Amazonije, rumeni romb bogastvo rudnin, modra krogla s zvezdami pa nebo nad Rio de Janeirom.",
+  "crest_meaning_sl": "Zvezde na grbu prikazujejo ozvezdje Južni križ in število brazilskih zveznih držav.",
+  "hotspots": [
+    { "x": 50, "y": 40, "title_sl": "Južni križ", "desc_sl": "Ozvezdje na južnem nebu, ki predstavlja število brazilskih zveznih držav." }
+  ],
+  "trivia_sl": [
+    "V Braziliji leži največji deževni gozd na svetu.",
+    "Brazilija je petkrat osvojila svetovno prvenstvo v nogometu."
+  ],
+  "flag_file": "bra.svg",
+  "crest_file": "bra.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/br.svg"],
+  "last_reviewed": "2026-09-23"
+}

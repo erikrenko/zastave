@@ -1,0 +1,18 @@
+{
+  "id": "xkx", "iso2": "XK", "entity_type": "partially_recognized", "status_badge_sl": "Delno priznana država",
+  "name_sl": "Kosovo", "name_sl_genitive": "Kosova",
+  "capital_sl": "Priština", "region": "europe", "subregion_sl": "Jugovzhodna Evropa",
+  "population": "1,8 M", "language_sl": "Albanščina in srbščina", "currency_sl": "Evro (€)",
+  "coords": { "lat": 42.6026, "lng": 20.9030 },
+  "flag_meaning_sl": "Modra zastava z zlato siluto zemljevida Kosova in šestimi belimi zvezdami, ki predstavljajo šest narodnih skupnosti.",
+  "crest_meaning_sl": "Grb prikazuje isto zlato siluto zemljevida na modrem ščitu, nad njim šest zvezd v loku.",
+  "hotspots": [
+    { "x": 50, "y": 50, "title_sl": "Zemljevid Kosova", "desc_sl": "Zlata silhueta prikazuje obliko države." },
+    { "x": 50, "y": 20, "title_sl": "Šest zvezd", "desc_sl": "Predstavljajo šest glavnih narodnih skupnosti v Kosovu." }
+  ],
+  "trivia_sl": ["Kosovo je samostojnost razglasilo leta 2008.", "Priznava ga večina, a ne vse članice OZN."],
+  "flag_file": "xkx.svg", "crest_file": "xkx.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/xk.svg", "https://upload.wikimedia.org/wikipedia/commons/1/1f/Coat_of_arms_of_Kosovo.svg"],
+  "last_reviewed": "2026-09-24"
+}

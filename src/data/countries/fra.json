@@ -1,0 +1,30 @@
+{
+  "id": "fra",
+  "iso2": "FR",
+  "entity_type": "sovereign_state",
+  "name_sl": "Francija",
+  "name_sl_genitive": "Francije",
+  "capital_sl": "Pariz",
+  "region": "europe",
+  "subregion_sl": "Zahodna Evropa",
+  "population": "68,1 M",
+  "language_sl": "Francoščina",
+  "currency_sl": "Evro (€)",
+  "coords": { "lat": 46.2276, "lng": 2.2137 },
+  "flag_meaning_sl": "Francoska trobarvnica nosi modro, belo in rdečo barvo. Modra in rdeča sta barvi Pariza, bela je predstavljala kraljevo družino.",
+  "crest_meaning_sl": "Rimska sekira v snopu prutov (fasces) simbolizira enotnost in moč.",
+  "hotspots": [
+    { "x": 50, "y": 40, "title_sl": "Fasces", "desc_sl": "Rimska sekira v snopu prutov simbolizira enotnost in moč." }
+  ],
+  "trivia_sl": [
+    "Eifflov stolp je bil zgrajen leta 1889.",
+    "V Franciji pripravijo več kot 1.500 vrst sira."
+  ],
+  "flag_file": "fra.svg",
+  "crest_file": "fra.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/fr.svg"],
+  "last_reviewed": "2026-09-23"
+}

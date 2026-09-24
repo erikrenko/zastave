@@ -1,0 +1,18 @@
+{
+  "id": "grc", "iso2": "GR", "entity_type": "sovereign_state",
+  "name_sl": "Grčija", "name_sl_genitive": "Grčije",
+  "capital_sl": "Atene", "region": "europe", "subregion_sl": "Južna Evropa",
+  "population": "10,4 M", "language_sl": "Grščina", "currency_sl": "Evro (€)",
+  "coords": { "lat": 39.0742, "lng": 21.8243 },
+  "flag_meaning_sl": "Devet modro-belih pasov predstavlja zlogov gesla 'Svoboda ali smrt'.",
+  "crest_meaning_sl": "Modri ščit z belim križem, obdan z oljčnim vencem.",
+  "hotspots": [
+    { "x": 50, "y": 50, "title_sl": "Beli križ", "desc_sl": "Simbol grške pravoslavne vere." },
+    { "x": 50, "y": 80, "title_sl": "Oljčni venec", "desc_sl": "Simbol miru in zmage, povezan z antičnimi olimpijskimi igrami." }
+  ],
+  "trivia_sl": ["Grčija je rodni kraj olimpijskih iger.", "Ima več kot 6.000 otokov."],
+  "flag_file": "grc.svg", "crest_file": "grc.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/gr.svg", "https://upload.wikimedia.org/wikipedia/commons/2/22/Coat_of_arms_of_Greece.svg"],
+  "last_reviewed": "2026-09-24"
+}

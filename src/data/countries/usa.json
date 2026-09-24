@@ -1,0 +1,30 @@
+{
+  "id": "usa",
+  "iso2": "US",
+  "entity_type": "sovereign_state",
+  "name_sl": "ZDA",
+  "name_sl_genitive": "ZDA",
+  "capital_sl": "Washington",
+  "region": "north_america",
+  "subregion_sl": "Severna Amerika",
+  "population": "333 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Dolar ($)",
+  "coords": { "lat": 37.0902, "lng": -95.7129 },
+  "flag_meaning_sl": "Zastava ima 50 belih zvezd na modri podlagi (za 50 zveznih držav) ter 13 rdeče-belih črt (za prvotnih 13 kolonij).",
+  "crest_meaning_sl": "Veliki pečat prikazuje beloglavega orla, ki v krempljih drži oljčno vejico in puščice.",
+  "hotspots": [
+    { "x": 50, "y": 45, "title_sl": "Beloglavi orel", "desc_sl": "Nacionalna ptica ZDA, ki v krempljih drži oljčno vejico in puščice." }
+  ],
+  "trivia_sl": [
+    "Kip svobode je bil darilo Francije.",
+    "ZDA ima 50 zveznih držav."
+  ],
+  "flag_file": "usa.svg",
+  "crest_file": "usa.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": true,
+  "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/us.svg"],
+  "last_reviewed": "2026-09-23"
+}

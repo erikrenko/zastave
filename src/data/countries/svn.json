@@ -1,0 +1,33 @@
+{
+  "id": "svn",
+  "iso2": "SI",
+  "entity_type": "sovereign_state",
+  "name_sl": "Slovenija",
+  "name_sl_genitive": "Slovenije",
+  "capital_sl": "Ljubljana",
+  "region": "europe",
+  "subregion_sl": "Srednja Evropa",
+  "population": "2,1 M",
+  "language_sl": "Slovenščina",
+  "currency_sl": "Evro (€)",
+  "coords": { "lat": 46.1512, "lng": 14.9955 },
+  "flag_meaning_sl": "Slovenska zastava ima belo, modro in rdečo barvo. V zgornjem levem kotu nosi grb Slovenije. Barve so tradicionalne slovanske barve.",
+  "crest_meaning_sl": "Grb v obliki ščita prikazuje najvišjo goro Triglav, reke in morje ter tri zlate zvezde.",
+  "hotspots": [
+    { "x": 50, "y": 30, "title_sl": "Tri zvezde", "desc_sl": "Tri zvezde izvirajo iz zgodovinskega grba Celjskih grofov." },
+    { "x": 50, "y": 55, "title_sl": "Gora Triglav", "desc_sl": "Bela silhueta prikazuje Triglav, najvišjo slovensko goro (2.864 m)." },
+    { "x": 50, "y": 78, "title_sl": "Modri valovi", "desc_sl": "Dve valoviti črti predstavljata Jadransko morje in domače reke." }
+  ],
+  "trivia_sl": [
+    "Več kot polovico države prekrivajo gozdovi.",
+    "V Sloveniji je več kot 10.000 kraških jam, vključno s Postojnsko jamo.",
+    "Ljubljanski zmaj je legendarni zaščitnik glavnega mesta."
+  ],
+  "flag_file": "svn.svg",
+  "crest_file": "svn.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/sl.svg", "https://upload.wikimedia.org/wikipedia/commons/8/8f/Coat_of_arms_of_Slovenia.svg"],
+  "last_reviewed": "2026-09-23"
+}

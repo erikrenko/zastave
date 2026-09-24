@@ -1,0 +1,18 @@
+{
+  "id": "aus", "iso2": "AU", "entity_type": "sovereign_state",
+  "name_sl": "Avstralija", "name_sl_genitive": "Avstralije",
+  "capital_sl": "Canberra", "region": "oceania", "subregion_sl": "Avstralija in Oceanija",
+  "population": "26 M", "language_sl": "Angleščina", "currency_sl": "Dolar (A$)",
+  "coords": { "lat": -25.2744, "lng": 133.7751 },
+  "flag_meaning_sl": "Union Jack v kotu, pod njim velika bela zvezda, na desni ozvezdje Južni križ.",
+  "crest_meaning_sl": "Kenguru in emu podpirata ščit s simboli šestih zveznih držav, obdan z zlato akacijo.",
+  "hotspots": [
+    { "x": 30, "y": 50, "title_sl": "Kenguru", "desc_sl": "Simbol Avstralije, ker se ne more premikati nazaj." },
+    { "x": 70, "y": 50, "title_sl": "Emu", "desc_sl": "Prav tako se ne more premikati nazaj - simbolizirata napredek." }
+  ],
+  "trivia_sl": ["Avstralija je edina država, ki je hkrati tudi celina.", "Veliki koralni greben je največji živi organizem na svetu."],
+  "flag_file": "aus.svg", "crest_file": "aus.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/au.svg", "https://upload.wikimedia.org/wikipedia/commons/b/b8/Coat_of_arms_of_Australia.svg"],
+  "last_reviewed": "2026-09-24"
+}

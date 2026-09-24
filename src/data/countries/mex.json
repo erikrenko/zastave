@@ -1,0 +1,17 @@
+{
+  "id": "mex", "iso2": "MX", "entity_type": "sovereign_state",
+  "name_sl": "Mehika", "name_sl_genitive": "Mehike",
+  "capital_sl": "Ciudad de México", "region": "north_america", "subregion_sl": "Severna Amerika",
+  "population": "129 M", "language_sl": "Španščina", "currency_sl": "Peso ($)",
+  "coords": { "lat": 23.6345, "lng": -102.5528 },
+  "flag_meaning_sl": "Zelena-bela-rdeča navpična zastava z orlom na sredini.",
+  "crest_meaning_sl": "Orel, ki na kaktusu poje kačo - po legendi znamenje za ustanovitev mesta Tenochtitlan.",
+  "hotspots": [
+    { "x": 50, "y": 50, "title_sl": "Orel in kača", "desc_sl": "Aztaška legenda o ustanovitvi glavnega mesta." }
+  ],
+  "trivia_sl": ["Čokolada in čili izvirata iz Mehike.", "Piramide v Chichén Itzi so ena od novih sedmih čudes sveta."],
+  "flag_file": "mex.svg", "crest_file": "mex.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/mx.svg", "https://upload.wikimedia.org/wikipedia/commons/f/fc/Coat_of_arms_of_Mexico.svg"],
+  "last_reviewed": "2026-09-24"
+}

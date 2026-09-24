@@ -1,0 +1,18 @@
+{
+  "id": "arg", "iso2": "AR", "entity_type": "sovereign_state",
+  "name_sl": "Argentina", "name_sl_genitive": "Argentine",
+  "capital_sl": "Buenos Aires", "region": "south_america", "subregion_sl": "Južna Amerika",
+  "population": "46 M", "language_sl": "Španščina", "currency_sl": "Peso ($)",
+  "coords": { "lat": -38.4161, "lng": -63.6167 },
+  "flag_meaning_sl": "Svetlo modra-bela-svetlo modra zastava z zlatim 'majskim soncem' na sredini.",
+  "crest_meaning_sl": "Dve sklenjeni roki držita palico s frigijsko kapo, nad njima sije sonce.",
+  "hotspots": [
+    { "x": 50, "y": 30, "title_sl": "Majsko sonce", "desc_sl": "Simbol svobode iz maja 1810." },
+    { "x": 50, "y": 65, "title_sl": "Sklenjeni roki", "desc_sl": "Predstavljata enotnost argentinskih pokrajin." }
+  ],
+  "trivia_sl": ["Argentina je domovina tanga.", "Patagonija ima osupljive ledenike."],
+  "flag_file": "arg.svg", "crest_file": "arg.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/ar.svg", "https://upload.wikimedia.org/wikipedia/commons/6/6b/Coat_of_arms_of_Argentina.svg"],
+  "last_reviewed": "2026-09-24"
+}

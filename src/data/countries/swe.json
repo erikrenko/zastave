@@ -1,0 +1,17 @@
+{
+  "id": "swe", "iso2": "SE", "entity_type": "sovereign_state",
+  "name_sl": "Švedska", "name_sl_genitive": "Švedske",
+  "capital_sl": "Stockholm", "region": "europe", "subregion_sl": "Severna Evropa",
+  "population": "10,5 M", "language_sl": "Švedščina", "currency_sl": "Krona (kr)",
+  "coords": { "lat": 60.1282, "lng": 18.6435 },
+  "flag_meaning_sl": "Modra zastava z rumenim skandinavskim križem.",
+  "crest_meaning_sl": "Tri zlate krone na modrem ščitu, znane kot 'Tre Kronor'.",
+  "hotspots": [
+    { "x": 50, "y": 50, "title_sl": "Tri krone", "desc_sl": "Star švedski simbol, star več kot 600 let." }
+  ],
+  "trivia_sl": ["Švedska je domovina podjetja IKEA.", "Na severu poleti sonce sploh ne zaide."],
+  "flag_file": "swe.svg", "crest_file": "swe.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/se.svg", "https://upload.wikimedia.org/wikipedia/commons/4/47/Lesser_coat_of_arms_of_Sweden.svg"],
+  "last_reviewed": "2026-09-24"
+}
