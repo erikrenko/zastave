@@ -9,10 +9,10 @@ export default function MapView({ active, countries, onSelect }) {
   useEffect(() => {
     if (mapRef.current) return
     const map = L.map(containerRef.current, { zoomControl: false }).setView([25, 10], 2)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; OpenStreetMap',
-      maxZoom: 18,
-    }).addTo(map)
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OpenStreetMap contributors',
+  maxZoom: 19,
+}).addTo(map)
     L.control.zoom({ position: 'bottomright' }).addTo(map)
 
     countries.forEach((c) => {
