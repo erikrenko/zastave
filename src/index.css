@@ -92,7 +92,7 @@ main { flex: 1; position: relative; overflow: hidden; }
 .country-card h3 { font-family: var(--font-heading); font-size: 18px; font-weight: 700; text-align: center; }
 .country-card p { font-size: 13px; color: var(--text-muted); font-weight: 600; }
 
-#trivia-view { padding: 24px; display: flex; justify-content: center; align-items: center; background: #EFF6FF; }
+#trivia-view { padding: 24px; justify-content: center; align-items: center; background: #EFF6FF; }
 .trivia-box { background: #fff; width: 100%; max-width: 720px; border-radius: var(--radius-lg); padding: 36px; box-shadow: var(--shadow-soft); display: flex; flex-direction: column; align-items: center; border: 2px solid var(--border-color); }
 .trivia-header { width: 100%; display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
 .score-badge { background: var(--secondary-light); color: #D97706; padding: 8px 18px; border-radius: 20px; font-family: var(--font-heading); font-weight: 800; border: 2px solid #FCD34D; }
