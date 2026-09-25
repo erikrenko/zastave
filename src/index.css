@@ -81,11 +81,11 @@ main { flex: 1; position: relative; overflow: hidden; }
 .custom-flag-pin img { width: 34px; height: 24px; object-fit: cover; border-radius: 4px; }
 
 #gallery-view { padding: 24px; flex-direction: column; overflow-y: auto; }
-.continent-filters { display: flex; gap: 10px; margin-bottom: 24px; overflow-x: auto; padding-bottom: 8px; }
+.continent-filters { display: flex; gap: 10px; margin-bottom: 24px; overflow-x: auto; padding-bottom: 8px; flex-shrink: 0; }
 .filter-chip { padding: 10px 20px; background: #fff; border: 2px solid var(--border-color); border-radius: 20px; font-family: var(--font-heading); font-size: 14px; font-weight: 700; color: var(--text-muted); cursor: pointer; white-space: nowrap; }
 .filter-chip.active { background: var(--primary); border-color: var(--primary); color: #fff; }
 
-.countries-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px,1fr)); gap: 20px; }
+.countries-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px,1fr)); gap: 20px; flex-shrink: 0; }
 .country-card { background: #fff; border-radius: var(--radius-md); padding: 18px; box-shadow: var(--shadow-card); display: flex; flex-direction: column; align-items: center; cursor: pointer; border: 2px solid var(--border-color); }
 .country-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-soft); border-color: var(--primary); }
 .card-flag { width: 100%; height: 110px; border-radius: var(--radius-sm); object-fit: cover; box-shadow: 0 2px 8px rgba(0,0,0,.08); margin-bottom: 14px; }
