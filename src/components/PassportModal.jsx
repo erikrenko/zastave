@@ -3,12 +3,12 @@ import { flagUrl, crestUrl, continentLabels } from '../data'
 import StatusBadge from './StatusBadge'
 
 export default function PassportModal({ country, onClose }) {
-  const [visualMode, setVisualMode] = useState('coat')
+  const [visualMode, setVisualMode] = useState('flag')
   const [tab, setTab] = useState('story')
   const [activeHotspot, setActiveHotspot] = useState(null)
 
   useEffect(() => {
-    setVisualMode('coat')
+    setVisualMode('flag')
     setTab('story')
     setActiveHotspot(null)
   }, [country])
