@@ -15,35 +15,32 @@ export const continentLabels = {
   oceania: 'Avstralija in Oceanija',
 }
 
-// Auto-loads every flag/crest file Erik has uploaded so far, keyed by
-// filename (without extension), e.g. "ar" -> the built asset URL for ar.png.
-// Uploading a file here makes it live automatically — no code change needed
-// per file. Supports .svg and .png side by side (mixed formats are fine).
-const localFlagModules = import.meta.glob('../assets/flags/*.{svg,png}', { eager: true, import: 'default' })
-const localCrestModules = import.meta.glob('../assets/crests/*.{svg,png}', { eager: true, import: 'default' })
+// Auto-loads every flag/crest file Erik has uploaded so far. Uploading a
+// file here makes it live automatically — no code change needed per file.
+// Supports .svg, .png and .webp side by side (mixed formats are fine).
+const localFlagModules = import.meta.glob('../assets/flags/*.{svg,png,webp}', { eager: true, import: 'default' })
+const localCrestModules = import.meta.glob('../assets/crests/*.{svg,png,webp}', { eager: true, import: 'default' })
 
+// Matches a file by name regardless of extension or case, so "AD.webp",
+// "ad.png" and "ad.svg" are all found by looking up "ad".
 function lookupLocal(modules, key) {
+  if (!key) return null
+  const target = key.toLowerCase()
   for (const path in modules) {
-    const filename = path.split('/').pop().replace(/\.(svg|png)$/, '')
-    if (filename === key) return modules[path]
+    const filename = path.split('/').pop().replace(/\.(svg|png|webp)$/i, '')
+    if (filename.toLowerCase() === target) return modules[path]
   }
   return null
 }
 
 export function flagUrl(country) {
-  // Prefer a self-hosted file, keyed by lowercase ISO2 (matches Erik's
-  // upload convention, e.g. ar.png for Argentina). Falls back to the
-  // flagcdn.com hotlink for any country not uploaded yet, so partial
-  // progress never breaks the app.
   const key = country.iso2.toLowerCase()
   return lookupLocal(localFlagModules, key) || `https://flagcdn.com/${key}.svg`
 }
 
 export function crestUrl(country) {
-  // Same local-first, hotlink-fallback pattern as flagUrl. Crests are
-  // keyed by the country's own id (svn, arg, xkx...) since there's no
-  // universal ISO code for a coat of arms the way there is for a flag.
   return (
+    lookupLocal(localCrestModules, country.iso2) ||
     lookupLocal(localCrestModules, country.id) ||
     country.source_urls?.[1] ||
     country.source_urls?.[0] ||
