@@ -3,13 +3,13 @@ export default function Header({ view, setView, uppercase, setUppercase, search,
     <header>
       <div className="logo">
         <span className="logo-icon">🗺️</span>
-        <span>Države sveta</span>
+        <span className="logo-text">Države sveta</span>
       </div>
 
       <div className="nav-tabs">
-        <button className={`nav-btn ${view === 'map' ? 'active' : ''}`} onClick={() => setView('map')}>🗺️ Zemljevid</button>
-        <button className={`nav-btn ${view === 'gallery' ? 'active' : ''}`} onClick={() => setView('gallery')}>🌍 Galerija</button>
-        <button className={`nav-btn ${view === 'trivia' ? 'active' : ''}`} onClick={() => setView('trivia')}>🏆 Kviz</button>
+        <button className={`nav-btn ${view === 'map' ? 'active' : ''}`} onClick={() => setView('map')}>🗺️ <span className="nav-label">Zemljevid</span></button>
+        <button className={`nav-btn ${view === 'gallery' ? 'active' : ''}`} onClick={() => setView('gallery')}>🌍 <span className="nav-label">Galerija</span></button>
+        <button className={`nav-btn ${view === 'trivia' ? 'active' : ''}`} onClick={() => setView('trivia')}>🏆 <span className="nav-label">Kviz</span></button>
       </div>
 
       <div className="header-actions">
