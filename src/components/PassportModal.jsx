@@ -6,11 +6,13 @@ export default function PassportModal({ country, onClose }) {
   const [visualMode, setVisualMode] = useState('flag')
   const [tab, setTab] = useState('story')
   const [activeHotspot, setActiveHotspot] = useState(null)
+  const [zoomOpen, setZoomOpen] = useState(false)
 
   useEffect(() => {
     setVisualMode('flag')
     setTab('story')
     setActiveHotspot(null)
+    setZoomOpen(false)
   }, [country])
 
   if (!country) return null
@@ -45,6 +47,7 @@ export default function PassportModal({ country, onClose }) {
             <div className="visual-toggle-box">
               <div className="visual-img-container">
                 <img className="visual-img" src={imgSrc} alt={country.name_sl} />
+                <button className="zoom-btn" title="Povečaj sliko" onClick={() => setZoomOpen(true)}>🔎</button>
                 {visualMode === 'coat' &&
                   country.hotspots?.map((hs, i) => (
                     <div
@@ -125,6 +128,13 @@ export default function PassportModal({ country, onClose }) {
           </div>
         </div>
       </div>
+
+      {zoomOpen && (
+        <div className="zoom-overlay" onClick={(e) => { e.stopPropagation(); setZoomOpen(false) }}>
+          <button className="zoom-close" onClick={(e) => { e.stopPropagation(); setZoomOpen(false) }}>✕</button>
+          <img className="zoom-img" src={imgSrc} alt={country.name_sl} onClick={(e) => e.stopPropagation()} />
+        </div>
+      )}
     </div>
   )
 }
