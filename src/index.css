@@ -41,6 +41,7 @@ body {
 header {
   background: #fff;
   padding: 12px 24px;
+  padding-top: calc(12px + env(safe-area-inset-top, 0px));
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -108,6 +109,42 @@ main { flex: 1; position: relative; overflow: hidden; }
 .option-btn.wrong { background: #FEE2E2 !important; border-color: #EF4444 !important; color: #991B1B !important; }
 
 .modal-overlay { position: fixed; inset: 0; background: rgba(15,23,42,.65); backdrop-filter: blur(8px); z-index: 2000; display: flex; align-items: center; justify-content: center; padding: 20px; }
+
+/* Mobile layout, general pass — icon-only nav tabs, tighter padding
+   everywhere, single-line horizontally-scrolling mode selectors instead of
+   wrapping into multi-line buttons. Same 700px breakpoint as the passport
+   modal rules below. */
+@media (max-width: 700px) {
+  body { min-height: 100dvh; }
+
+  header { padding: 10px 12px; gap: 8px; }
+  .logo-text { display: none; }
+  .logo-icon { font-size: 22px; padding: 4px 8px; }
+  .nav-tabs { gap: 2px; }
+  .nav-btn { padding: 8px 12px; font-size: 13px; }
+  .nav-label { display: none; }
+  .header-actions { gap: 8px; }
+  .search-bar { width: 120px; padding: 8px 12px; }
+  .case-btn { padding: 5px 9px; font-size: 11px; }
+
+  .cod-banner { padding: 8px 14px; gap: 10px; }
+  .cod-banner img { width: 32px; height: 22px; }
+  .cod-banner .cod-name { font-size: 14px; }
+
+  #gallery-view { padding: 14px; }
+  .countries-grid { grid-template-columns: repeat(auto-fill, minmax(140px,1fr)); gap: 12px; }
+  .country-card { padding: 12px; }
+  .card-flag { height: 80px; margin-bottom: 8px; }
+  .country-card h3 { font-size: 15px; }
+
+  #trivia-view { padding: 14px; }
+  .trivia-box { padding: 18px; }
+  .trivia-mode-selector { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .mode-btn { flex-shrink: 0; font-size: 12px; padding: 7px 12px; white-space: nowrap; }
+  .trivia-question { font-size: 18px; }
+  .options-grid { gap: 10px; }
+  .option-btn { padding: 14px; font-size: 14px; }
+}
 .passport-card { background: #fff; width: 100%; max-width: 980px; height: 88vh; max-height: 680px; border-radius: 32px; box-shadow: 0 25px 50px -12px rgba(0,0,0,.35); display: flex; flex-direction: column; overflow: hidden; }
 .passport-header { padding: 18px 28px; display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid var(--border-color); }
 .passport-title { display: flex; align-items: center; gap: 12px; }
@@ -145,3 +182,38 @@ main { flex: 1; position: relative; overflow: hidden; }
 .hotspot-card { background: var(--secondary-light); border: 2px dashed #FCD34D; padding: 18px; border-radius: var(--radius-md); display: flex; gap: 14px; align-items: flex-start; }
 .fun-facts-list { display: flex; flex-direction: column; gap: 12px; }
 .fact-item { background: #fff; padding: 16px; border-radius: var(--radius-md); border-left: 5px solid var(--accent); box-shadow: var(--shadow-card); font-size: 14px; font-weight: 600; display: flex; gap: 12px; align-items: center; }
+
+/* Mobile layout for the passport modal — the two-column desktop layout
+   (44%/56% split) doesn't fit a phone screen, so below 700px it becomes a
+   single scrolling column, full-screen, with tabs that scroll horizontally
+   instead of wrapping into cramped multi-line buttons. */
+@media (max-width: 700px) {
+  .modal-overlay { padding: 0; }
+  .passport-card { width: 100%; height: 100%; max-width: none; max-height: none; border-radius: 0; border: none; }
+  .passport-header { padding: 14px 16px; }
+  .passport-title h2 { font-size: 20px; }
+  .continent-tag { font-size: 11px; padding: 3px 10px; }
+  .audio-btn { padding: 8px 12px; font-size: 0; gap: 0; }
+  .audio-btn::before { content: '🔊'; font-size: 18px; }
+  .close-btn { width: 36px; height: 36px; font-size: 18px; }
+
+  .passport-body { flex-direction: column; overflow-y: auto; padding-bottom: env(safe-area-inset-bottom, 0px); }
+  .passport-left, .passport-right {
+    width: 100%;
+    border-right: none;
+    overflow-y: visible;
+    padding: 16px;
+  }
+  .passport-left { border-bottom: 2px solid var(--border-color); }
+  .visual-toggle-box { min-height: 170px; padding: 14px; }
+  .visual-img { max-height: 110px; }
+
+  .content-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 14px;
+  }
+  .tab-btn { flex-shrink: 0; font-size: 13px; padding: 8px 12px; white-space: nowrap; }
+  .story-card { padding: 16px; font-size: 14px; }
+}
