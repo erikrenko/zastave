@@ -1,0 +1,19 @@
+{
+  "id": "tun", "iso2": "TN", "entity_type": "sovereign_state",
+  "name_sl": "Tunizija", "name_sl_genitive": "Tunizije",
+  "capital_sl": "Tunis", "region": "africa", "subregion_sl": "Severna Afrika",
+  "population": "12 M", "language_sl": "Arabščina", "currency_sl": "Dinar (TND)",
+  "coords": { "lat": 33.8869, "lng": 9.5375 },
+  "flag_meaning_sl": "Rdeča zastava z belim krogom na sredini, v katerem sta rdeč polmesec in zvezda. Bel krog predstavlja sonce, polmesec in zvezda pa mir in enotnost.",
+  "crest_meaning_sl": "Grb prikazuje leva z mečem, staro kartažansko ladjo in tehtnico pravice, nad njimi pa polmesec in zvezda.",
+  "hotspots": [
+    { "x": 30, "y": 50, "title_sl": "Lev z mečem", "desc_sl": "Simbolizira moč in pogum naroda." },
+    { "x": 65, "y": 45, "title_sl": "Ladja", "desc_sl": "Spominja na starodavno pomorsko mesto Kartagino." },
+    { "x": 50, "y": 75, "title_sl": "Tehtnica", "desc_sl": "Predstavlja pravico za vse ljudi." }
+  ],
+  "trivia_sl": ["V Tuniziji ležijo razvaline starodavne Kartagine, nekoč mogočnega mesta.", "Puščava Sahara se na jugu Tunizije šele začenja.", "Tunizija je znana po modro-belih mestih, kot je Sidi Bou Said."],
+  "flag_file": "tun.svg", "crest_file": "tun.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/tn.svg", "https://upload.wikimedia.org/wikipedia/commons/9/9a/Coat_of_arms_of_Tunisia.svg"],
+  "last_reviewed": "2026-09-27"
+}

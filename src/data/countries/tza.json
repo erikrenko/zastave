@@ -1,0 +1,19 @@
+{
+  "id": "tza", "iso2": "TZ", "entity_type": "sovereign_state",
+  "name_sl": "Tanzanija", "name_sl_genitive": "Tanzanije",
+  "capital_sl": "Dodoma", "region": "africa", "subregion_sl": "Vzhodna Afrika",
+  "population": "67 M", "language_sl": "Svahili in angleščina", "currency_sl": "Šiling (TSh)",
+  "coords": { "lat": -6.3690, "lng": 34.8888 },
+  "flag_meaning_sl": "Diagonalna zastava z zeleno in modro barvo, ločeno s črnim pasom v rumenem robu. Zelena predstavlja zemljo, modra ocean in jezera, črna ljudi, rumena pa rudno bogastvo.",
+  "crest_meaning_sl": "Grb prikazuje gorečo baklo svobode, prekrižano sekiro in motiko za delo, v ozadju pa je gora Kilimandžaro.",
+  "hotspots": [
+    { "x": 50, "y": 25, "title_sl": "Bakla", "desc_sl": "Simbolizira svobodo, razsvetljenje in upanje naroda." },
+    { "x": 50, "y": 50, "title_sl": "Gora Kilimandžaro", "desc_sl": "Najvišja gora v Afriki stoji v Tanzaniji." },
+    { "x": 50, "y": 75, "title_sl": "Sekira in motika", "desc_sl": "Predstavljata delo in samozadostnost naroda." }
+  ],
+  "trivia_sl": ["V Tanzaniji stoji Kilimandžaro, najvišja gora v Afriki.", "Nacionalni park Serengeti gosti največjo selitev živali na svetu.", "Otok Zanzibar je znan po nasadih dišav, kot sta nageljnove žbice in cimet."],
+  "flag_file": "tza.svg", "crest_file": "tza.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/tz.svg", "https://upload.wikimedia.org/wikipedia/commons/f/f2/Coat_of_arms_of_Tanzania.svg"],
+  "last_reviewed": "2026-09-27"
+}

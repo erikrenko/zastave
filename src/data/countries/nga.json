@@ -1,0 +1,19 @@
+{
+  "id": "nga", "iso2": "NG", "entity_type": "sovereign_state",
+  "name_sl": "Nigerija", "name_sl_genitive": "Nigerije",
+  "capital_sl": "Abuja", "region": "africa", "subregion_sl": "Zahodna Afrika",
+  "population": "224 M", "language_sl": "Angleščina", "currency_sl": "Naira (₦)",
+  "coords": { "lat": 9.0820, "lng": 8.6753 },
+  "flag_meaning_sl": "Zelena-bela-zelena navpična zastava. Zeleni pasovi predstavljajo kmetijstvo in gozdove, beli pas pa mir in enotnost.",
+  "crest_meaning_sl": "Črn ščit z belim vzorcem v obliki črke Y prikazuje sotočje rek Niger in Benue. Ščit stražita dva konja, nad njim pa je orel, simbol moči.",
+  "hotspots": [
+    { "x": 50, "y": 30, "title_sl": "Orel", "desc_sl": "Simbolizira moč in ponos naroda." },
+    { "x": 50, "y": 55, "title_sl": "Sotočje rek", "desc_sl": "Bel vzorec v obliki črke Y prikazuje, kje se rečeta Niger in Benue združita." },
+    { "x": 50, "y": 80, "title_sl": "Rdeči cvetovi", "desc_sl": "Cvetovi ob dnu ščita predstavljajo lepoto nigerijske zemlje." }
+  ],
+  "trivia_sl": ["Nigerija ima največ prebivalcev med vsemi afriškimi državami.", "Nigerijska filmska industrija Nollywood posname na tisoče filmov letno.", "V državi živi več kot 250 različnih narodov in jezikov."],
+  "flag_file": "nga.svg", "crest_file": "nga.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/ng.svg", "https://upload.wikimedia.org/wikipedia/commons/9/9a/Coat_of_arms_of_Nigeria.svg"],
+  "last_reviewed": "2026-09-27"
+}

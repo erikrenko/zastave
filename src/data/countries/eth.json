@@ -1,0 +1,18 @@
+{
+  "id": "eth", "iso2": "ET", "entity_type": "sovereign_state",
+  "name_sl": "Etiopija", "name_sl_genitive": "Etiopije",
+  "capital_sl": "Adis Abeba", "region": "africa", "subregion_sl": "Vzhodna Afrika",
+  "population": "126 M", "language_sl": "Amharščina", "currency_sl": "Bir",
+  "coords": { "lat": 9.1450, "lng": 40.4897 },
+  "flag_meaning_sl": "Zeleno-rumeno-rdeča zastava z modrim krogom na sredini, v njem pa rumena zvezda z žarki. Zvezda predstavlja enotnost vseh etiopskih narodov.",
+  "crest_meaning_sl": "Državni znak je rumena petkraka zvezda znotraj modrega kroga, iz katere sevajo žarki svetlobe proti robovom kroga.",
+  "hotspots": [
+    { "x": 50, "y": 50, "title_sl": "Rumena zvezda", "desc_sl": "Predstavlja enotnost in enakost vseh narodov Etiopije." },
+    { "x": 50, "y": 50, "title_sl": "Žarki svetlobe", "desc_sl": "Simbolizirajo svetlo prihodnost države." }
+  ],
+  "trivia_sl": ["Etiopija je edina afriška država, ki je Evropejci nikoli niso kolonizirali.", "Uporablja svoj koledar, ki je za približno sedem let za gregorijanskim.", "Velja za kraj, kjer so ljudje prvič odkrili kavo."],
+  "flag_file": "eth.svg", "crest_file": "eth.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": true,
+  "source_urls": ["https://flagcdn.com/et.svg", "https://upload.wikimedia.org/wikipedia/commons/e/e7/Emblem_of_Ethiopia.svg"],
+  "last_reviewed": "2026-09-27"
+}

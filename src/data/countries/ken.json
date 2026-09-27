@@ -1,0 +1,19 @@
+{
+  "id": "ken", "iso2": "KE", "entity_type": "sovereign_state",
+  "name_sl": "Kenija", "name_sl_genitive": "Kenije",
+  "capital_sl": "Nairobi", "region": "africa", "subregion_sl": "Vzhodna Afrika",
+  "population": "55 M", "language_sl": "Svahili in angleščina", "currency_sl": "Šiling (KSh)",
+  "coords": { "lat": -0.0236, "lng": 37.9062 },
+  "flag_meaning_sl": "Črna-rdeča-zelena zastava z belimi robovi, čez sredino pa maasajski ščit z dvema sulicama. Črna barva predstavlja ljudstvo, rdeča bojevanje za neodvisnost, zelena pa naravo.",
+  "crest_meaning_sl": "Grb prikazuje isti ščit in sulici, ki ju stražita dva leva, nad njima pa je petelin. V ozadju je gora Kenija.",
+  "hotspots": [
+    { "x": 50, "y": 45, "title_sl": "Ščit in sulici", "desc_sl": "Simbolizirata obrambo svobode, za katero se je Kenija borila." },
+    { "x": 30, "y": 60, "title_sl": "Leva", "desc_sl": "Predstavljata moč in varovanje naroda." },
+    { "x": 50, "y": 20, "title_sl": "Petelin", "desc_sl": "Simbolizira nov začetek in prebujanje naroda." }
+  ],
+  "trivia_sl": ["V Keniji vsako leto poteka velika selitev gnujev čez savano.", "Nairobi je ena redkih prestolnic na svetu z narodnim parkom kar znotraj mesta.", "Kenijski tekači na dolge proge veljajo za najboljše na svetu."],
+  "flag_file": "ken.svg", "crest_file": "ken.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/ke.svg", "https://upload.wikimedia.org/wikipedia/commons/9/9a/Coat_of_arms_of_Kenya.svg"],
+  "last_reviewed": "2026-09-27"
+}

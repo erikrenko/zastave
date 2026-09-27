@@ -1,0 +1,19 @@
+{
+  "id": "mar", "iso2": "MA", "entity_type": "sovereign_state",
+  "name_sl": "Maroko", "name_sl_genitive": "Maroka",
+  "capital_sl": "Rabat", "region": "africa", "subregion_sl": "Severna Afrika",
+  "population": "37 M", "language_sl": "Arabščina in berberščina", "currency_sl": "Dirham (MAD)",
+  "coords": { "lat": 31.7917, "lng": -7.0926 },
+  "flag_meaning_sl": "Rdeča zastava z zeleno petkrako zvezdo (Salomonovim pečatom) na sredini. Rdeča barva predstavlja pogum, zelena zvezda pa mir in upanje.",
+  "crest_meaning_sl": "Grb prikazuje zeleno zvezdo nad vzhajajočim soncem in gorovjem Atlas, ščit pa stražita dva leva.",
+  "hotspots": [
+    { "x": 50, "y": 20, "title_sl": "Zelena zvezda", "desc_sl": "Simbolizira mir in upanje, njenih pet krakov pa pet stebrov islama." },
+    { "x": 50, "y": 55, "title_sl": "Gorovje Atlas", "desc_sl": "Prikazuje najvišje gore v Maroku, ki potekajo čez celo državo." },
+    { "x": 25, "y": 65, "title_sl": "Leva", "desc_sl": "Stražita ščit in predstavljata moč kraljestva." }
+  ],
+  "trivia_sl": ["Maroko ima obalo ob Atlantskem oceanu in Sredozemskem morju.", "Stara mestna četrt Marakeš je na Unescovem seznamu svetovne dediščine.", "Puščava Sahara se začne na jugu Maroka."],
+  "flag_file": "mar.svg", "crest_file": "mar.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/ma.svg", "https://upload.wikimedia.org/wikipedia/commons/8/8a/Coat_of_arms_of_Morocco.svg"],
+  "last_reviewed": "2026-09-27"
+}

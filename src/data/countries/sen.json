@@ -1,0 +1,19 @@
+{
+  "id": "sen", "iso2": "SN", "entity_type": "sovereign_state",
+  "name_sl": "Senegal", "name_sl_genitive": "Senegala",
+  "capital_sl": "Dakar", "region": "africa", "subregion_sl": "Zahodna Afrika",
+  "population": "18 M", "language_sl": "Francoščina in volofščina", "currency_sl": "Frank CFA",
+  "coords": { "lat": 14.4974, "lng": -14.4524 },
+  "flag_meaning_sl": "Zeleno-rumeno-rdeča navpična zastava z majhno zeleno zvezdo na sredini rumenega pasu. Zelena predstavlja upanje, rumena bogastvo, rdeča pa življenje.",
+  "crest_meaning_sl": "Grb prikazuje zlatega leva in bavbabovo drevo, nad njima pa zeleno zvezdo. Motiv obdajata prekrižana palmova lista.",
+  "hotspots": [
+    { "x": 30, "y": 50, "title_sl": "Lev", "desc_sl": "Simbolizira moč in dediščino Senegala." },
+    { "x": 65, "y": 55, "title_sl": "Baobabovo drevo", "desc_sl": "Nacionalno drevo, znano po tem, da lahko živi na tisoče let." },
+    { "x": 50, "y": 20, "title_sl": "Zelena zvezda", "desc_sl": "Predstavlja enotnost in upanje naroda." }
+  ],
+  "trivia_sl": ["Senegalska baobabova drevesa lahko živijo več kot tisoč let.", "Dakar je znan po tradicionalnem rokoborskem športu, imenovanem laamb.", "Senegal je bil dolgo časa vstopna točka za slavni avto-dirkalni maraton Dakar."],
+  "flag_file": "sen.svg", "crest_file": "sen.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/sn.svg", "https://upload.wikimedia.org/wikipedia/commons/4/4c/Coat_of_arms_of_Senegal.svg"],
+  "last_reviewed": "2026-09-27"
+}

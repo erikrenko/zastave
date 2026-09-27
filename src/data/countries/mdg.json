@@ -1,0 +1,19 @@
+{
+  "id": "mdg", "iso2": "MG", "entity_type": "sovereign_state",
+  "name_sl": "Madagaskar", "name_sl_genitive": "Madagaskarja",
+  "capital_sl": "Antananarivo", "region": "africa", "subregion_sl": "Vzhodna Afrika",
+  "population": "30 M", "language_sl": "Malgaščina in francoščina", "currency_sl": "Ariary",
+  "coords": { "lat": -18.7669, "lng": 46.8691 },
+  "flag_meaning_sl": "Bel navpični pas na levi ter rdeč in zelen vodoravni pas na desni. Bela predstavlja čistost, rdeča suverenost, zelena pa upanje in obalne nižine.",
+  "crest_meaning_sl": "Državni pečat prikazuje glavo zebuja (govedo), drevo popotnik (ravinala) in rižna polja - vse pomembne simbole malgaškega vsakdana.",
+  "hotspots": [
+    { "x": 30, "y": 40, "title_sl": "Glava zebuja", "desc_sl": "Zebu je vrsta goveda, ki je zelo pomembna za malgaško kulturo in gospodarstvo." },
+    { "x": 70, "y": 30, "title_sl": "Drevo popotnik", "desc_sl": "Ravinala je rastlina, ki raste samo na Madagaskarju in je nacionalni simbol." },
+    { "x": 50, "y": 70, "title_sl": "Rižna polja", "desc_sl": "Riž je osnovna hrana skoraj vseh prebivalcev otoka." }
+  ],
+  "trivia_sl": ["Madagaskar je četrti največji otok na svetu.", "Več kot 90 odstotkov živali na otoku, kot so lemuri, ne najdemo nikjer drugje.", "Otok se je od afriške celine ločil pred milijoni let."],
+  "flag_file": "mdg.svg", "crest_file": "mdg.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/mg.svg", "https://upload.wikimedia.org/wikipedia/commons/6/6b/Seal_of_Madagascar.svg"],
+  "last_reviewed": "2026-09-27"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "gha", "iso2": "GH", "entity_type": "sovereign_state",
+  "name_sl": "Gana", "name_sl_genitive": "Gane",
+  "capital_sl": "Akra", "region": "africa", "subregion_sl": "Zahodna Afrika",
+  "population": "34 M", "language_sl": "Angleščina", "currency_sl": "Cedi (GH₵)",
+  "coords": { "lat": 7.9465, "lng": -1.0232 },
+  "flag_meaning_sl": "Rdeče-rumeno-zelena zastava s črno petkrako zvezdo na sredini rumenega pasu. Črna zvezda je simbol svobode vse Afrike.",
+  "crest_meaning_sl": "Grb je razdeljen na štiri polja: grad ob morju, kakavovec, rudarski jašek in lev. Nad njim je črna zvezda, ki jo drži orel.",
+  "hotspots": [
+    { "x": 50, "y": 20, "title_sl": "Črna zvezda", "desc_sl": "Simbol svobode, po katerem so se zgledovale tudi druge afriške države." },
+    { "x": 30, "y": 55, "title_sl": "Kakavovec", "desc_sl": "Gana je ena največjih pridelovalk kakava na svetu." },
+    { "x": 70, "y": 55, "title_sl": "Rudarski jašek", "desc_sl": "Predstavlja bogate zaloge zlata v državi." }
+  ],
+  "trivia_sl": ["Gana je bila leta 1957 prva država v podsaharski Afriki, ki je postala neodvisna.", "Gana je med največjimi pridelovalkami kakava na svetu.", "Ašantsko zlato nakit iz Gane je znan po vsem svetu."],
+  "flag_file": "gha.svg", "crest_file": "gha.svg", "crest_available": true,
+  "has_subdivisions_gallery": false, "has_historical_flags": false,
+  "source_urls": ["https://flagcdn.com/gh.svg", "https://upload.wikimedia.org/wikipedia/commons/8/85/Coat_of_arms_of_Ghana.svg"],
+  "last_reviewed": "2026-09-27"
+}
