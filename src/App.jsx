@@ -8,7 +8,7 @@ import CountryOfDay from './components/CountryOfDay'
 import { countries } from './data'
 
 export default function App() {
-  const [view, setView] = useState('map')
+  const [view, setView] = useState('gallery')
   const [uppercase, setUppercase] = useState(false)
   const [search, setSearch] = useState('')
   const [selectedId, setSelectedId] = useState(null)
