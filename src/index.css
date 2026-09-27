@@ -33,6 +33,7 @@ body {
   background: var(--bg-main);
   color: var(--text-dark);
   height: 100vh;
+  height: 100dvh;
   overflow: hidden;
 }
 
