@@ -5,13 +5,11 @@ import StatusBadge from './StatusBadge'
 export default function PassportModal({ country, onClose }) {
   const [visualMode, setVisualMode] = useState('flag')
   const [tab, setTab] = useState('story')
-  const [activeHotspot, setActiveHotspot] = useState(null)
   const [zoomOpen, setZoomOpen] = useState(false)
 
   useEffect(() => {
     setVisualMode('flag')
     setTab('story')
-    setActiveHotspot(null)
     setZoomOpen(false)
   }, [country])
 
@@ -48,24 +46,10 @@ export default function PassportModal({ country, onClose }) {
               <div className="visual-img-container">
                 <img className="visual-img" src={imgSrc} alt={country.name_sl} />
                 <button className="zoom-btn" title="Povečaj sliko" onClick={() => setZoomOpen(true)}>🔎</button>
-                {visualMode === 'coat' &&
-                  country.hotspots?.map((hs, i) => (
-                    <div
-                      key={i}
-                      className="hotspot"
-                      style={{ left: `${hs.x}%`, top: `${hs.y}%` }}
-                      onClick={() => {
-                        setTab('symbols')
-                        setActiveHotspot(hs)
-                      }}
-                    >
-                      {i + 1}
-                    </div>
-                  ))}
               </div>
               <div className="visual-switch">
-                <button className={`switch-btn ${visualMode === 'coat' ? 'active' : ''}`} onClick={() => setVisualMode('coat')}>🛡️ Grb</button>
                 <button className={`switch-btn ${visualMode === 'flag' ? 'active' : ''}`} onClick={() => setVisualMode('flag')}>🇸🇮 Zastava</button>
+                <button className={`switch-btn ${visualMode === 'coat' ? 'active' : ''}`} onClick={() => setVisualMode('coat')}>🛡️ Grb</button>
               </div>
             </div>
 
@@ -80,7 +64,6 @@ export default function PassportModal({ country, onClose }) {
           <div className="passport-right">
             <div className="content-tabs">
               <button className={`tab-btn ${tab === 'story' ? 'active' : ''}`} onClick={() => setTab('story')}>📖 Zgodba zastave</button>
-              <button className={`tab-btn ${tab === 'symbols' ? 'active' : ''}`} onClick={() => setTab('symbols')}>🔍 Povečevalno steklo</button>
               <button className={`tab-btn ${tab === 'facts' ? 'active' : ''}`} onClick={() => setTab('facts')}>💡 Ali veš?</button>
             </div>
 
@@ -93,22 +76,13 @@ export default function PassportModal({ country, onClose }) {
                 <div className="story-card">
                   <h3>Grb</h3>
                   <p>{country.crest_meaning_sl}</p>
-                </div>
-              </div>
-            )}
-
-            {tab === 'symbols' && (
-              <div className="tab-pane active">
-                <div className="hotspot-card">
-                  <div style={{ fontSize: 28 }}>💡</div>
-                  <div>
-                    <h4 style={{ fontFamily: 'var(--font-heading)', color: 'var(--primary-dark)', marginBottom: 4, fontWeight: 700 }}>
-                      {activeHotspot ? activeHotspot.title_sl : 'Dotakni se točk na grbu!'}
-                    </h4>
-                    <p style={{ fontSize: 14, color: '#475569', fontWeight: 600 }}>
-                      {activeHotspot ? activeHotspot.desc_sl : 'Klikni na rumene točke na sliki grba, da razkriješ skrite simbole in njihov pomen.'}
-                    </p>
-                  </div>
+                  {country.hotspots?.length > 0 && (
+                    <ul className="symbol-list">
+                      {country.hotspots.map((hs, i) => (
+                        <li key={i}><strong>{hs.title_sl}:</strong> {hs.desc_sl}</li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
               </div>
             )}
