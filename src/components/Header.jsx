@@ -1,4 +1,28 @@
-export default function Header({ view, setView, uppercase, setUppercase, search, setSearch }) {
+import { useState } from 'react'
+
+const NAV = [
+  { id: 'gallery', icon: '🌍', label: 'Galerija' },
+  { id: 'map', icon: '🗺️', label: 'Zemljevid' },
+  { id: 'trivia', icon: '🏆', label: 'Kviz' },
+]
+
+export default function Header({ view, setView, uppercase, setUppercase }) {
+  const [menuOpen, setMenuOpen] = useState(false)
+
+  function go(id) {
+    setView(id)
+    setMenuOpen(false)
+  }
+
+  function renderCaseToggle() {
+    return (
+      <div className="case-toggle" onClick={() => setUppercase(!uppercase)} title="Spremeni velikost črk">
+        <button className={`case-btn ${!uppercase ? 'active' : ''}`}>abc</button>
+        <button className={`case-btn ${uppercase ? 'active' : ''}`}>ABC</button>
+      </div>
+    )
+  }
+
   return (
     <header>
       <div className="logo">
@@ -6,30 +30,46 @@ export default function Header({ view, setView, uppercase, setUppercase, search,
         <span className="logo-text">Države sveta</span>
       </div>
 
+      {/* Desktop / tablet: tabs + case toggle in the bar */}
       <div className="nav-tabs">
-        <button className={`nav-btn ${view === 'gallery' ? 'active' : ''}`} onClick={() => setView('gallery')}>🌍 <span className="nav-label">Galerija</span></button>
-        <button className={`nav-btn ${view === 'map' ? 'active' : ''}`} onClick={() => setView('map')}>🗺️ <span className="nav-label">Zemljevid</span></button>
-        <button className={`nav-btn ${view === 'trivia' ? 'active' : ''}`} onClick={() => setView('trivia')}>🏆 <span className="nav-label">Kviz</span></button>
+        {NAV.map((n) => (
+          <button key={n.id} className={`nav-btn ${view === n.id ? 'active' : ''}`} onClick={() => go(n.id)}>
+            {n.icon} <span className="nav-label">{n.label}</span>
+          </button>
+        ))}
       </div>
+      <div className="header-actions">{renderCaseToggle()}</div>
 
-      <div className="header-actions">
-        <div className="case-toggle" onClick={() => setUppercase(!uppercase)} title="Spremeni velikost črk">
-          <button className={`case-btn ${!uppercase ? 'active' : ''}`}>abc</button>
-          <button className={`case-btn ${uppercase ? 'active' : ''}`}>ABC</button>
-        </div>
-        <div className="search-bar">
-          🔍
-          <input
-            type="text"
-            placeholder="Išči državo..."
-            value={search}
-            onChange={(e) => {
-              setSearch(e.target.value)
-              if (e.target.value && view !== 'gallery') setView('gallery')
-            }}
-          />
-        </div>
-      </div>
+      {/* Mobile: everything lives behind one hamburger button */}
+      <button
+        className="hamburger"
+        aria-label="Meni"
+        aria-expanded={menuOpen}
+        onClick={() => setMenuOpen((o) => !o)}
+      >
+        {menuOpen ? '✕' : '☰'}
+      </button>
+
+      {menuOpen && (
+        <>
+          <div className="menu-backdrop" onClick={() => setMenuOpen(false)} />
+          <nav className="mobile-menu">
+            {NAV.map((n) => (
+              <button
+                key={n.id}
+                className={`mobile-menu-item ${view === n.id ? 'active' : ''}`}
+                onClick={() => go(n.id)}
+              >
+                <span className="mobile-menu-icon">{n.icon}</span> {n.label}
+              </button>
+            ))}
+            <div className="mobile-menu-row">
+              <span>Velikost črk</span>
+              {renderCaseToggle()}
+            </div>
+          </nav>
+        </>
+      )}
     </header>
   )
 }
