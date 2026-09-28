@@ -1,6 +1,22 @@
 import { useEffect, useRef } from 'react'
 import L from 'leaflet'
+import 'leaflet.markercluster'
+import 'leaflet.markercluster/dist/MarkerCluster.css'
+import '../cluster.css'
 import { flagUrl } from '../data'
+
+// With 200+ countries, individual flag pins would pile up on top of each
+// other (Europe especially). Nearby pins are grouped into one numbered
+// bubble instead; zooming in or tapping a bubble splits it apart again.
+function clusterIcon(cluster) {
+  const count = cluster.getChildCount()
+  const size = count < 10 ? 40 : count < 50 ? 48 : 56
+  return L.divIcon({
+    html: `<div class="cluster-bubble" style="width:${size}px;height:${size}px">${count}</div>`,
+    className: 'cluster-wrapper',
+    iconSize: [size, size],
+  })
+}
 
 export default function MapView({ active, countries, onSelect }) {
   const mapRef = useRef(null)
@@ -10,6 +26,8 @@ export default function MapView({ active, countries, onSelect }) {
     if (mapRef.current) return
     const map = L.map(containerRef.current, {
       zoomControl: false,
+      // The cluster plugin requires the map to declare a maxZoom up front.
+      maxZoom: 19,
       // Leaflet's default zoom moves in whole-number steps, which reads as
       // jumpy. zoomSnap/zoomDelta below are official, documented Leaflet
       // options that give fine-grained, smooth-feeling zoom using Leaflet's
@@ -24,6 +42,14 @@ export default function MapView({ active, countries, onSelect }) {
     }).addTo(map)
     L.control.zoom({ position: 'bottomright' }).addTo(map)
 
+    const clusterGroup = L.markerClusterGroup({
+      maxClusterRadius: 60,
+      showCoverageOnHover: false,
+      zoomToBoundsOnClick: true,
+      spiderfyOnMaxZoom: true,
+      iconCreateFunction: clusterIcon,
+    })
+
     countries.forEach((c) => {
       const icon = L.divIcon({
         className: 'custom-pin-wrapper',
@@ -31,10 +57,12 @@ export default function MapView({ active, countries, onSelect }) {
         iconSize: [48, 48],
         iconAnchor: [24, 24],
       })
-      const marker = L.marker([c.coords.lat, c.coords.lng], { icon }).addTo(map)
+      const marker = L.marker([c.coords.lat, c.coords.lng], { icon })
       marker.on('click', () => onSelect(c.id))
+      clusterGroup.addLayer(marker)
     })
 
+    map.addLayer(clusterGroup)
     mapRef.current = map
   }, [countries, onSelect])
 
