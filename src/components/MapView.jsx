@@ -3,7 +3,7 @@ import L from 'leaflet'
 import 'leaflet.markercluster'
 import 'leaflet.markercluster/dist/MarkerCluster.css'
 import '../cluster.css'
-import { flagUrl } from '../data'
+import { flagUrl, hasValidCoords } from '../data'
 
 // With 200+ countries, individual flag pins would pile up on top of each
 // other (Europe especially). Nearby pins are grouped into one numbered
@@ -51,6 +51,11 @@ export default function MapView({ active, countries, onSelect }) {
     })
 
     countries.forEach((c) => {
+      // No usable coordinates -> no pin (still visible in gallery and quiz).
+      if (!hasValidCoords(c)) {
+        console.warn(`[map] ${c.id} has no valid coords, not shown on the map`)
+        return
+      }
       const icon = L.divIcon({
         className: 'custom-pin-wrapper',
         html: `<div class="custom-flag-pin"><img src="${flagUrl(c)}" alt="${c.name_sl}" /></div>`,
