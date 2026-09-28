@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="c1_icon_svg" viewBox="0 0 80 80" class="w-full h-full"><style xmlns="http://www.w3.org/1999/xhtml">
+        :root {
+          --color-primary: #e63946;
+          --color-secondary: #1c1917;
+          --color-accent: #d3b038;
+        }
+      </style>
+                    <g id="c1_icon_def">
+                      <path d="M40 5 C60 5, 75 12, 75 25 C75 55, 60 72, 40 78 C20 72, 5 55, 5 25 C5 12, 20 5, 40 5 Z" fill="var(--color-secondary)" stroke="var(--color-primary)" stroke-width="3"/>
+                      <circle cx="40" cy="40" r="26" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.4" fill="none"/>
+                      <ellipse cx="40" cy="40" rx="14" ry="26" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.6" fill="none"/>
+                      <line x1="14" y1="40" x2="66" y2="40" stroke="var(--color-primary)" stroke-width="2" opacity="0.8"/>
+                      <line x1="40" y1="14" x2="40" y2="66" stroke="var(--color-primary)" stroke-width="2" opacity="0.8"/>
+                      <polygon points="40,26 43,37 54,40 43,43 40,54 37,43 26,40 37,37" fill="var(--color-accent)"/>
+                    </g>
+                  </svg>

@@ -1,0 +1,25 @@
+<svg id="c1_full_svg" width="480" height="100" viewBox="0 0 480 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="max-w-full h-auto"><style xmlns="http://www.w3.org/1999/xhtml">
+        :root {
+          --color-primary: #e63946;
+          --color-secondary: #1c1917;
+          --color-accent: #d3b038;
+        }
+      </style>
+            <g transform="translate(10, 10)">
+              <!-- Icon Mark -->
+              <g class="c1_mark">
+                <!-- Shield Contour -->
+                <path d="M40 5 C60 5, 75 12, 75 25 C75 55, 60 72, 40 78 C20 72, 5 55, 5 25 C5 12, 20 5, 40 5 Z" fill="var(--color-secondary)" stroke="var(--color-primary)" stroke-width="2.5"/>
+                <!-- Globe Meridians inside shield -->
+                <circle cx="40" cy="40" r="26" stroke="var(--color-primary)" stroke-width="1.2" opacity="0.4" fill="none"/>
+                <ellipse cx="40" cy="40" rx="14" ry="26" stroke="var(--color-primary)" stroke-width="1.2" opacity="0.6" fill="none"/>
+                <line x1="14" y1="40" x2="66" y2="40" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.8"/>
+                <line x1="40" y1="14" x2="40" y2="66" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.8"/>
+                <!-- Central Star / Compass North -->
+                <polygon points="40,26 43,37 54,40 43,43 40,54 37,43 26,40 37,37" fill="var(--color-accent)"/>
+              </g>
+              <!-- Typography -->
+              <text x="95" y="44" font-family="'Inter', sans-serif" font-weight="700" font-size="28" fill="#F8FAFC" letter-spacing="2" class="brand-title-text">ZASTAVE IN GRBI SVETA</text>
+              <text x="96" y="64" font-family="Inter, sans-serif" font-weight="600" font-size="10" fill="var(--color-primary)" letter-spacing="4" class="brand-sub-text">ZA MLADE RAZISKOVALCE</text>
+            </g>
+          </svg>
