@@ -2,18 +2,13 @@ import { useState, useMemo } from 'react'
 import { continentLabels, flagUrl } from '../data'
 import StatusBadge from './StatusBadge'
 
-export default function Gallery({ active, countries, search, onSelect }) {
+export default function Gallery({ active, countries, onSelect }) {
   const [continent, setContinent] = useState('Vse')
 
   const filtered = useMemo(() => {
-    let list = countries
-    if (continent !== 'Vse') list = list.filter((c) => c.region === continent)
-    if (search) {
-      const q = search.toLowerCase()
-      list = list.filter((c) => c.name_sl.toLowerCase().includes(q) || c.capital_sl.toLowerCase().includes(q))
-    }
-    return list
-  }, [countries, continent, search])
+    if (continent === 'Vse') return countries
+    return countries.filter((c) => c.region === continent)
+  }, [countries, continent])
 
   return (
     <section className={`view ${active ? 'active' : ''}`} id="gallery-view" style={{ flexDirection: 'column' }}>
