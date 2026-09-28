@@ -10,7 +10,6 @@ import { countries } from './data'
 export default function App() {
   const [view, setView] = useState('gallery')
   const [uppercase, setUppercase] = useState(false)
-  const [search, setSearch] = useState('')
   const [selectedId, setSelectedId] = useState(null)
 
   useEffect(() => {
@@ -26,13 +25,11 @@ export default function App() {
         setView={setView}
         uppercase={uppercase}
         setUppercase={setUppercase}
-        search={search}
-        setSearch={setSearch}
       />
       <CountryOfDay countries={countries} onSelect={setSelectedId} />
       <main>
         <MapView active={view === 'map'} countries={countries} onSelect={setSelectedId} />
-        <Gallery active={view === 'gallery'} countries={countries} search={search} onSelect={setSelectedId} />
+        <Gallery active={view === 'gallery'} countries={countries} onSelect={setSelectedId} />
         <TriviaView active={view === 'trivia'} countries={countries} />
       </main>
       {selected && <PassportModal country={selected} onClose={() => setSelectedId(null)} />}
