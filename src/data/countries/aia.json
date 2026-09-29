@@ -1,0 +1,47 @@
+{
+  "id": "aia",
+  "iso2": "AI",
+  "entity_type": "territory",
+  "name_sl": "Angvila",
+  "name_sl_genitive": "Angvile",
+  "capital_sl": "The Valley",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "0,015 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Vzhodnokaribski dolar",
+  "coords": {
+    "lat": 18.2206,
+    "lng": -63.0517
+  },
+  "flag_meaning_sl": "Modra predstavlja morje, grb z motivom treh delfinov pa prijateljstvo, modrost in moč.",
+  "crest_meaning_sl": "Znak prikazuje tri delfine v krogu, ki simbolizirajo stalno enotnost prebivalcev.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Modra predstavlja morje, grb z motivom treh delfinov pa prijateljstvo, modrost in moč."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Znak prikazuje tri delfine v krogu, ki simbolizirajo stalno enotnost prebivalcev."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "aia.svg",
+  "crest_file": "aia.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/aia.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

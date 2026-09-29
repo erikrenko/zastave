@@ -1,0 +1,47 @@
+{
+  "id": "lca",
+  "iso2": "LC",
+  "entity_type": "sovereign_state",
+  "name_sl": "Sveta Lucija",
+  "name_sl_genitive": "Svete Lucije",
+  "capital_sl": "Castries",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "0,18 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Vzhodnokaribski dolar",
+  "coords": {
+    "lat": 13.9094,
+    "lng": -60.9789
+  },
+  "flag_meaning_sl": "Modra predstavlja tropsko nebo in morje, črna in bela ljudi ter mir, zlata pa sonce in blaginjo.",
+  "crest_meaning_sl": "Grb prikazuje dva papagaja, bambus, banane, stolp in čelado.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Modra predstavlja tropsko nebo in morje, črna in bela ljudi ter mir, zlata pa sonce in blaginjo."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Grb prikazuje dva papagaja, bambus, banane, stolp in čelado."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "lca.svg",
+  "crest_file": "lca.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/lca.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

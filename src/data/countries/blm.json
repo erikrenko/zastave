@@ -1,0 +1,47 @@
+{
+  "id": "blm",
+  "iso2": "BL",
+  "entity_type": "territory",
+  "name_sl": "Saint-Barthélemy",
+  "name_sl_genitive": "Saint-Barthélemyja",
+  "capital_sl": "Gustavia",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "0,011 M",
+  "language_sl": "Francoščina",
+  "currency_sl": "Evro",
+  "coords": {
+    "lat": 17.9,
+    "lng": -62.8333
+  },
+  "flag_meaning_sl": "Uporablja francosko zastavo; lokalni grb prikazuje zgodovinske simbole otoka.",
+  "crest_meaning_sl": "Lokalni grb vsebuje tri krone, križ in pelikane, povezane z zgodovino otoka.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Uporablja francosko zastavo; lokalni grb prikazuje zgodovinske simbole otoka."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Lokalni grb vsebuje tri krone, križ in pelikane, povezane z zgodovino otoka."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "blm.svg",
+  "crest_file": "blm.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/blm.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

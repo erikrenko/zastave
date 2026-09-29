@@ -1,0 +1,47 @@
+{
+  "id": "pri",
+  "iso2": "PR",
+  "entity_type": "territory",
+  "name_sl": "Portoriko",
+  "name_sl_genitive": "Portorika",
+  "capital_sl": "San Juan",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "3,24 M",
+  "language_sl": "Španščina, angleščina",
+  "currency_sl": "Ameriški dolar",
+  "coords": {
+    "lat": 18.2208,
+    "lng": -66.5901
+  },
+  "flag_meaning_sl": "Rdeče črte predstavljajo kri, bele črte svobodo, modri trikotnik nebo in morje, bela zvezda pa otok.",
+  "crest_meaning_sl": "Portoriko uporablja grb z jagnjetom, križem, knjigo in geslom; predstavlja krščansko dediščino in zgodovino otoka.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Rdeče črte predstavljajo kri, bele črte svobodo, modri trikotnik nebo in morje, bela zvezda pa otok."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Portoriko uporablja grb z jagnjetom, križem, knjigo in geslom; predstavlja krščansko dediščino in zgodovino otoka."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "pri.svg",
+  "crest_file": "pri.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/pri.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

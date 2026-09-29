@@ -1,0 +1,47 @@
+{
+  "id": "bhs",
+  "iso2": "BS",
+  "entity_type": "sovereign_state",
+  "name_sl": "Bahami",
+  "name_sl_genitive": "Bahamov",
+  "capital_sl": "Nassau",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "0,40 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Bahamski dolar",
+  "coords": {
+    "lat": 25.0343,
+    "lng": -77.3963
+  },
+  "flag_meaning_sl": "Črn trikotnik predstavlja moč in odločnost, modra morje, zlata pa peščene plaže in sonce.",
+  "crest_meaning_sl": "Grb ima ščit z ladjo Santa Maria, flaminga in marlina; predstavljajo morje, naravo in zgodovino.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Črn trikotnik predstavlja moč in odločnost, modra morje, zlata pa peščene plaže in sonce."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Grb ima ščit z ladjo Santa Maria, flaminga in marlina; predstavljajo morje, naravo in zgodovino."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "bhs.svg",
+  "crest_file": "bhs.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/bhs.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

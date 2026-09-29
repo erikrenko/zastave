@@ -1,0 +1,47 @@
+{
+  "id": "tto",
+  "iso2": "TT",
+  "entity_type": "sovereign_state",
+  "name_sl": "Trinidad in Tobago",
+  "name_sl_genitive": "Trinidada in Tobaga",
+  "capital_sl": "Port of Spain",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "1,51 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Trinidadsko-tobaški dolar",
+  "coords": {
+    "lat": 10.6918,
+    "lng": -61.2225
+  },
+  "flag_meaning_sl": "Črna predstavlja zemljo in predanost, bela morje in čistost, rdeča pa ogenj, pogum in sonce.",
+  "crest_meaning_sl": "Državni grb prikazuje dve ptici, tri ladje in ščit z zgodovinskimi simboli otokov.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Črna predstavlja zemljo in predanost, bela morje in čistost, rdeča pa ogenj, pogum in sonce."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Državni grb prikazuje dve ptici, tri ladje in ščit z zgodovinskimi simboli otokov."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "tto.svg",
+  "crest_file": "tto.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/tto.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

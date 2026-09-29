@@ -1,0 +1,47 @@
+{
+  "id": "atg",
+  "iso2": "AG",
+  "entity_type": "sovereign_state",
+  "name_sl": "Antigva in Barbuda",
+  "name_sl_genitive": "Antigve in Barbude",
+  "capital_sl": "Saint John’s",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "0,09 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Vzhodnokaribski dolar",
+  "coords": {
+    "lat": 17.0608,
+    "lng": -61.7964
+  },
+  "flag_meaning_sl": "Rdeča predstavlja energijo, modra upanje, bela pesek, sonce pa začetek nove dobe.",
+  "crest_meaning_sl": "Grb prikazuje sonce, morje, sladkorni trs in tovarno; simboli pripovedujejo o naravi in zgodovini otokov.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Rdeča predstavlja energijo, modra upanje, bela pesek, sonce pa začetek nove dobe."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Grb prikazuje sonce, morje, sladkorni trs in tovarno; simboli pripovedujejo o naravi in zgodovini otokov."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "atg.svg",
+  "crest_file": "atg.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/atg.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

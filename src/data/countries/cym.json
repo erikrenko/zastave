@@ -1,0 +1,47 @@
+{
+  "id": "cym",
+  "iso2": "KY",
+  "entity_type": "territory",
+  "name_sl": "Kajmanski otoki",
+  "name_sl_genitive": "Kajmanskih otokov",
+  "capital_sl": "George Town",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "0,076 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Kajmanski dolar",
+  "coords": {
+    "lat": 19.3133,
+    "lng": -81.2546
+  },
+  "flag_meaning_sl": "Modra zastava ima Union Jack in ščit z levom, vrvjo, ananasom in tremi zvezdami.",
+  "crest_meaning_sl": "Ščitni simboli predstavljajo britansko povezavo, morje, otoke in tri glavne otoke.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Modra zastava ima Union Jack in ščit z levom, vrvjo, ananasom in tremi zvezdami."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Ščitni simboli predstavljajo britansko povezavo, morje, otoke in tri glavne otoke."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "cym.svg",
+  "crest_file": "cym.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/cym.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

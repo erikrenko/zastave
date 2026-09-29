@@ -1,0 +1,47 @@
+{
+  "id": "msr",
+  "iso2": "MS",
+  "entity_type": "territory",
+  "name_sl": "Montserrat",
+  "name_sl_genitive": "Montserrat",
+  "capital_sl": "Brades",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "0,004 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Vzhodnokaribski dolar",
+  "coords": {
+    "lat": 16.7425,
+    "lng": -62.1874
+  },
+  "flag_meaning_sl": "Modra zastava ima Union Jack in žensko z zelenim oblačilom, križem in harfo, kar predstavlja irsko dediščino.",
+  "crest_meaning_sl": "Znak prikazuje Erin, personifikacijo Irske, s križem in harfo.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Modra zastava ima Union Jack in žensko z zelenim oblačilom, križem in harfo, kar predstavlja irsko dediščino."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Znak prikazuje Erin, personifikacijo Irske, s križem in harfo."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "msr.svg",
+  "crest_file": "msr.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/msr.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

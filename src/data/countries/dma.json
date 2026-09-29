@@ -1,0 +1,47 @@
+{
+  "id": "dma",
+  "iso2": "DM",
+  "entity_type": "sovereign_state",
+  "name_sl": "Dominika",
+  "name_sl_genitive": "Dominike",
+  "capital_sl": "Roseau",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "0,07 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Vzhodnokaribski dolar",
+  "coords": {
+    "lat": 15.415,
+    "lng": -61.371
+  },
+  "flag_meaning_sl": "Zelena predstavlja gozdove, kri sonce in socialno pravičnost, deset zvezd pa župnije; papiga simbolizira upanje.",
+  "crest_meaning_sl": "Grb prikazuje papigo sisserou, banane, kokos in čoln, ki predstavljajo naravo, kmetijstvo in morje.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Zelena predstavlja gozdove, kri sonce in socialno pravičnost, deset zvezd pa župnije; papiga simbolizira upanje."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Grb prikazuje papigo sisserou, banane, kokos in čoln, ki predstavljajo naravo, kmetijstvo in morje."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "dma.svg",
+  "crest_file": "dma.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/dma.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

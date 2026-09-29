@@ -1,0 +1,47 @@
+{
+  "id": "glp",
+  "iso2": "GP",
+  "entity_type": "territory",
+  "name_sl": "Guadeloupe",
+  "name_sl_genitive": "Guadeloupa",
+  "capital_sl": "Basse-Terre",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "0,37 M",
+  "language_sl": "Francoščina",
+  "currency_sl": "Evro",
+  "coords": {
+    "lat": 16.265,
+    "lng": -61.551
+  },
+  "flag_meaning_sl": "Uporablja francosko zastavo; lokalni znaki pogosto prikazujejo sonce, morje, zelenje in cvetove otokov.",
+  "crest_meaning_sl": "Guadeloupe nima samostojnega državnega grba; uporablja francoske in lokalne teritorialne embleme.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Uporablja francosko zastavo; lokalni znaki pogosto prikazujejo sonce, morje, zelenje in cvetove otokov."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Guadeloupe nima samostojnega državnega grba; uporablja francoske in lokalne teritorialne embleme."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "glp.svg",
+  "crest_file": "glp.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/glp.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

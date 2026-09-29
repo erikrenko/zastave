@@ -1,0 +1,47 @@
+{
+  "id": "dom",
+  "iso2": "DO",
+  "entity_type": "sovereign_state",
+  "name_sl": "Dominikanska republika",
+  "name_sl_genitive": "Dominikanske republike",
+  "capital_sl": "Santo Domingo",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "11,52 M",
+  "language_sl": "Španščina",
+  "currency_sl": "Dominikanski peso",
+  "coords": {
+    "lat": 18.7357,
+    "lng": -70.1627
+  },
+  "flag_meaning_sl": "Modra predstavlja svobodo, rdeča kri in pogum, bela pa mir. Križ na sredini je pomemben zgodovinski simbol.",
+  "crest_meaning_sl": "Grb vsebuje odprto Sveto pismo, križ, sulice in trak z geslom Bog, domovina, svoboda.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Modra predstavlja svobodo, rdeča kri in pogum, bela pa mir."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Grb vsebuje odprto Sveto pismo, križ, sulice in trak z geslom Bog, domovina, svoboda."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "dom.svg",
+  "crest_file": "dom.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/dom.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

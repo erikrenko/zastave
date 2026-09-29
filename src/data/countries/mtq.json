@@ -1,0 +1,47 @@
+{
+  "id": "mtq",
+  "iso2": "MQ",
+  "entity_type": "territory",
+  "name_sl": "Martinik",
+  "name_sl_genitive": "Martinika",
+  "capital_sl": "Fort-de-France",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "0,34 M",
+  "language_sl": "Francoščina",
+  "currency_sl": "Evro",
+  "coords": {
+    "lat": 14.6415,
+    "lng": -61.0242
+  },
+  "flag_meaning_sl": "Uporablja francosko zastavo; lokalni simboli poudarjajo morje, vulkan, zelenje in kulturno dediščino.",
+  "crest_meaning_sl": "Martinik nima samostojnega državnega grba; uporablja francoske in teritorialne embleme.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Uporablja francosko zastavo; lokalni simboli poudarjajo morje, vulkan, zelenje in kulturno dediščino."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Martinik nima samostojnega državnega grba; uporablja francoske in teritorialne embleme."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "mtq.svg",
+  "crest_file": "mtq.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/mtq.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

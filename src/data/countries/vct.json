@@ -1,0 +1,47 @@
+{
+  "id": "vct",
+  "iso2": "VC",
+  "entity_type": "sovereign_state",
+  "name_sl": "Saint Vincent in Grenadine",
+  "name_sl_genitive": "Saint Vincenta in Grenadinov",
+  "capital_sl": "Kingstown",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "0,10 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Vzhodnokaribski dolar",
+  "coords": {
+    "lat": 12.9843,
+    "lng": -61.2872
+  },
+  "flag_meaning_sl": "Modra predstavlja nebo in morje, zlata toplino in pesek, zelena pa rast in trajnost. Trije zeleni diamanti tvorijo črko V.",
+  "crest_meaning_sl": "Grb prikazuje rastline, bombaž in geslo Mir in pravičnost.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Modra predstavlja nebo in morje, zlata toplino in pesek, zelena pa rast in trajnost."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Grb prikazuje rastline, bombaž in geslo Mir in pravičnost."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "vct.svg",
+  "crest_file": "vct.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/vct.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

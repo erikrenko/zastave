@@ -1,0 +1,47 @@
+{
+  "id": "grd",
+  "iso2": "GD",
+  "entity_type": "sovereign_state",
+  "name_sl": "Grenada",
+  "name_sl_genitive": "Grenade",
+  "capital_sl": "Saint George’s",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "0,12 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Vzhodnokaribski dolar",
+  "coords": {
+    "lat": 12.1165,
+    "lng": -61.679
+  },
+  "flag_meaning_sl": "Rdeča predstavlja pogum, rumena sonce in prijaznost, zelena pa rodovitno naravo; muškatni orešček spominja na pomemben pridelek.",
+  "crest_meaning_sl": "Grb prikazuje ladjo Santa Maria, leva, armadila in muškatni orešček.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Rdeča predstavlja pogum, rumena sonce in prijaznost, zelena pa rodovitno naravo; muškatni orešček spominja na pomemben pridelek."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Grb prikazuje ladjo Santa Maria, leva, armadila in muškatni orešček."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "grd.svg",
+  "crest_file": "grd.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/grd.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

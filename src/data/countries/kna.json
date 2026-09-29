@@ -1,0 +1,47 @@
+{
+  "id": "kna",
+  "iso2": "KN",
+  "entity_type": "sovereign_state",
+  "name_sl": "Saint Kitts in Nevis",
+  "name_sl_genitive": "Saint Kittsa in Nevisa",
+  "capital_sl": "Basseterre",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "0,047 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Vzhodnokaribski dolar",
+  "coords": {
+    "lat": 17.3578,
+    "lng": -62.783
+  },
+  "flag_meaning_sl": "Zelena predstavlja rodovitnost, rdeča boj proti suženjstvu in kolonializmu, rumena sonce, črna afriško dediščino, dve beli zvezdi pa upanje in svobodo.",
+  "crest_meaning_sl": "Grb prikazuje ladjo, čelado, palmo in sladkorni trs, ki predstavljajo morje, naravo in zgodovino.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Zelena predstavlja rodovitnost, rdeča boj proti suženjstvu in kolonializmu, rumena sonce, črna afriško dediščino, dve beli zvezdi pa upanje in svobodo."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Grb prikazuje ladjo, čelado, palmo in sladkorni trs, ki predstavljajo morje, naravo in zgodovino."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "kna.svg",
+  "crest_file": "kna.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/kna.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

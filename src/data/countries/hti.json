@@ -1,0 +1,47 @@
+{
+  "id": "hti",
+  "iso2": "HT",
+  "entity_type": "sovereign_state",
+  "name_sl": "Haiti",
+  "name_sl_genitive": "Haitija",
+  "capital_sl": "Port-au-Prince",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "11,91 M",
+  "language_sl": "Francoščina, haitijska kreolščina",
+  "currency_sl": "Haitijska gourda",
+  "coords": {
+    "lat": 18.9712,
+    "lng": -72.2852
+  },
+  "flag_meaning_sl": "Modra in rdeča sta barvi enotnosti, bela plošča pa nosi geslo Enotnost je moč.",
+  "crest_meaning_sl": "Grb prikazuje palmo, orožje, zastavice, top in sidro; predstavlja obrambo neodvisnosti.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Modra in rdeča sta barvi enotnosti, bela plošča pa nosi geslo Enotnost je moč."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Grb prikazuje palmo, orožje, zastavice, top in sidro; predstavlja obrambo neodvisnosti."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "hti.svg",
+  "crest_file": "hti.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/hti.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

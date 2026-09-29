@@ -1,0 +1,47 @@
+{
+  "id": "jam",
+  "iso2": "JM",
+  "entity_type": "sovereign_state",
+  "name_sl": "Jamajka",
+  "name_sl_genitive": "Jamajke",
+  "capital_sl": "Kingston",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "2,84 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Jamajški dolar",
+  "coords": {
+    "lat": 18.1096,
+    "lng": -77.2975
+  },
+  "flag_meaning_sl": "Črna predstavlja moč in ustvarjalnost ljudi, zlata naravno bogastvo in sonce, zelena pa upanje in kmetijstvo.",
+  "crest_meaning_sl": "Grb prikazuje krokodila, ščit, ananas in kraljevi čeladi; simboli predstavljajo otok in njegovo zgodovino.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Črna predstavlja moč in ustvarjalnost ljudi, zlata naravno bogastvo in sonce, zelena pa upanje in kmetijstvo."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Grb prikazuje krokodila, ščit, ananas in kraljevi čeladi; simboli predstavljajo otok in njegovo zgodovino."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "jam.svg",
+  "crest_file": "jam.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/jam.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

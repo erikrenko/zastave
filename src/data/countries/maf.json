@@ -1,0 +1,47 @@
+{
+  "id": "maf",
+  "iso2": "MF",
+  "entity_type": "territory",
+  "name_sl": "Saint-Martin",
+  "name_sl_genitive": "Saint-Martina",
+  "capital_sl": "Marigot",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "0,025 M",
+  "language_sl": "Francoščina",
+  "currency_sl": "Evro",
+  "coords": {
+    "lat": 18.0708,
+    "lng": -63.0501
+  },
+  "flag_meaning_sl": "Uporablja francosko zastavo; lokalni simboli poudarjajo morje, sonce in otoško skupnost.",
+  "crest_meaning_sl": "Saint-Martin nima ločenega suverenega državnega grba; uporablja francoske in lokalne embleme.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Uporablja francosko zastavo; lokalni simboli poudarjajo morje, sonce in otoško skupnost."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Saint-Martin nima ločenega suverenega državnega grba; uporablja francoske in lokalne embleme."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "maf.svg",
+  "crest_file": "maf.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/maf.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

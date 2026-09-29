@@ -1,0 +1,47 @@
+{
+  "id": "vir",
+  "iso2": "VI",
+  "entity_type": "territory",
+  "name_sl": "Ameriški Deviški otoki",
+  "name_sl_genitive": "Ameriških Deviških otokov",
+  "capital_sl": "Charlotte Amalie",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "0,084 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Ameriški dolar",
+  "coords": {
+    "lat": 18.3358,
+    "lng": -64.8963
+  },
+  "flag_meaning_sl": "Bela zastava ima orla, ki drži lovor in puščice; simbolizira mir in obrambo.",
+  "crest_meaning_sl": "Grb oziroma uradni pečat prikazuje orla, ki povezuje simbole Združenih držav in otokov.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Bela zastava ima orla, ki drži lovor in puščice; simbolizira mir in obrambo."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Grb oziroma uradni pečat prikazuje orla, ki povezuje simbole Združenih držav in otokov."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "vir.svg",
+  "crest_file": "vir.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/vir.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

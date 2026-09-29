@@ -1,0 +1,47 @@
+{
+  "id": "tca",
+  "iso2": "TC",
+  "entity_type": "territory",
+  "name_sl": "Turks in Caicos",
+  "name_sl_genitive": "Turksov in Caicosov",
+  "capital_sl": "Cockburn Town",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "0,047 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Ameriški dolar",
+  "coords": {
+    "lat": 21.694,
+    "lng": -71.7979
+  },
+  "flag_meaning_sl": "Modra zastava ima Union Jack in ščit s školjko, jastogom in kaktusom, značilnimi za otoke.",
+  "crest_meaning_sl": "Ščit prikazuje naravne vire in značilne živali ter rastline otokov.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Modra zastava ima Union Jack in ščit s školjko, jastogom in kaktusom, značilnimi za otoke."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Ščit prikazuje naravne vire in značilne živali ter rastline otokov."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "tca.svg",
+  "crest_file": "tca.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/tca.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

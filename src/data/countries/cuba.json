@@ -1,0 +1,47 @@
+{
+  "id": "cuba",
+  "iso2": "CU",
+  "entity_type": "sovereign_state",
+  "name_sl": "Kuba",
+  "name_sl_genitive": "Kube",
+  "capital_sl": "Havana",
+  "region": "caribbean",
+  "subregion_sl": "Karibi",
+  "population": "10,94 M",
+  "language_sl": "Španščina",
+  "currency_sl": "Kubanski peso",
+  "coords": {
+    "lat": 21.5218,
+    "lng": -77.7812
+  },
+  "flag_meaning_sl": "Modra in bela predstavljata stare pokrajine in čistost, rdeči trikotnik boj za svobodo, zvezda pa neodvisnost.",
+  "crest_meaning_sl": "Grb prikazuje ključ, vzhajajoče sonce, hrastovo vejo in lovor; simboli predstavljajo položaj, svobodo in zmago.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Modra in bela predstavljata stare pokrajine in čistost, rdeči trikotnik boj za svobodo, zvezda pa neodvisnost."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Grb ali znak",
+      "desc_sl": "Grb prikazuje ključ, vzhajajoče sonce, hrastovo vejo in lovor; simboli predstavljajo položaj, svobodo in zmago."
+    }
+  ],
+  "trivia_sl": [
+    "Karibi so območje številnih otokov, jezikov in kultur.",
+    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
+    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
+  ],
+  "flag_file": "cuba.svg",
+  "crest_file": "cuba.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/cuba.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}
