@@ -4,7 +4,6 @@ import MapView from './components/MapView'
 import Gallery from './components/Gallery'
 import TriviaView from './components/TriviaView'
 import PassportModal from './components/PassportModal'
-import CountryOfDay from './components/CountryOfDay'
 import { countries } from './data'
 
 export default function App() {
@@ -26,7 +25,6 @@ export default function App() {
         uppercase={uppercase}
         setUppercase={setUppercase}
       />
-      <CountryOfDay countries={countries} onSelect={setSelectedId} />
       <main>
         <MapView active={view === 'map'} countries={countries} onSelect={setSelectedId} />
         <Gallery active={view === 'gallery'} countries={countries} onSelect={setSelectedId} />
