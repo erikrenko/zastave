@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import logo from '../assets/c1_full_logo.svg'
 
 const NAV = [
   { id: 'gallery', icon: '🌍', label: 'Galerija' },
@@ -26,8 +27,7 @@ export default function Header({ view, setView, uppercase, setUppercase }) {
   return (
     <header>
       <div className="logo">
-        <span className="logo-icon">🗺️</span>
-        <span className="logo-text">Države sveta</span>
+        <img src={logo} className="logo-img" alt="Države sveta" />
       </div>
 
       {/* Desktop / tablet: tabs + case toggle in the bar */}
