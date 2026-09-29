@@ -1,0 +1,47 @@
+{
+  "id": "flk",
+  "iso2": "FK",
+  "entity_type": "territory",
+  "name_sl": "Falklandski otoki",
+  "name_sl_genitive": "Falklandskih otokov",
+  "capital_sl": "Stanley",
+  "region": "south_america",
+  "subregion_sl": "Severovzhodna Južna Amerika",
+  "population": "0,004 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Falklandski funt",
+  "coords": {
+    "lat": -51.7963,
+    "lng": -59.5236
+  },
+  "flag_meaning_sl": "Zastava je modra z Union Jackom in grbom otokov; modra spominja na morje, ladja pa na zgodovino raziskovanja in povezave z Združenim kraljestvom.",
+  "crest_meaning_sl": "Grb prikazuje ovco, travo, ladjo Desire in geslo Desire the Right; ladja se navezuje na zgodovinsko raziskovanje otokov.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Zastava je modra z Union Jackom in grbom otokov; modra spominja na morje, ladja pa na zgodovino raziskovanja in povezave z Združenim kraljestvom."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Državni znak",
+      "desc_sl": "Grb prikazuje ovco, travo, ladjo Desire in geslo Desire the Right; ladja se navezuje na zgodovinsko raziskovanje otokov."
+    }
+  ],
+  "trivia_sl": [
+    "Falklandski otoki so otočje v južnem Atlantiku.",
+    "Glavno naselje je Stanley.",
+    "Otoki so znani po pingvinih in velikih kolonijah morskih ptic."
+  ],
+  "flag_file": "flk.svg",
+  "crest_file": "flk.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/flk.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gtm",
+  "iso2": "GT",
+  "entity_type": "sovereign_state",
+  "name_sl": "Gvatemala",
+  "name_sl_genitive": "Gvatemale",
+  "capital_sl": "Gvatemala City",
+  "region": "central_america",
+  "subregion_sl": "Srednja Amerika",
+  "population": "18,4 M",
+  "language_sl": "Španščina",
+  "currency_sl": "Gvatemalski kecal",
+  "coords": {
+    "lat": 15.7835,
+    "lng": -90.2308
+  },
+  "flag_meaning_sl": "Modra predstavlja nebo in morje, bela pa mir in čistost.",
+  "crest_meaning_sl": "Kecal predstavlja svobodo, zvitek datum neodvisnosti, puške obrambo, meča čast, lovorjev venec pa zmago.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Modra predstavlja nebo in morje, bela pa mir in čistost."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Državni znak",
+      "desc_sl": "Kecal predstavlja svobodo, zvitek datum neodvisnosti, puške obrambo, meča čast, lovorjev venec pa zmago."
+    }
+  ],
+  "trivia_sl": [
+    "Gvatemala je domovina majevskega mesta Tikal.",
+    "Kecal je tudi ime gvatemalske valute.",
+    "V državi je veliko vulkanov."
+  ],
+  "flag_file": "gtm.svg",
+  "crest_file": "gtm.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/gtm.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

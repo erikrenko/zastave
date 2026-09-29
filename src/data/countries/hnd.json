@@ -1,0 +1,47 @@
+{
+  "id": "hnd",
+  "iso2": "HN",
+  "entity_type": "sovereign_state",
+  "name_sl": "Honduras",
+  "name_sl_genitive": "Hondurasa",
+  "capital_sl": "Tegucigalpa",
+  "region": "central_america",
+  "subregion_sl": "Srednja Amerika",
+  "population": "10,8 M",
+  "language_sl": "Španščina",
+  "currency_sl": "Honduraška lempira",
+  "coords": {
+    "lat": 15.2,
+    "lng": -86.2419
+  },
+  "flag_meaning_sl": "Modra predstavlja nebo, morje in bratstvo, bela pa mir in čistost. Pet zvezd predstavlja pet nekdanjih držav Srednjeameriške federacije.",
+  "crest_meaning_sl": "Grb prikazuje gore, rudarski vhod, orodje, mavrico in rog obilja; simboli predstavljajo naravo, delo in bogastvo države.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Modra predstavlja nebo, morje in bratstvo, bela pa mir in čistost."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Državni znak",
+      "desc_sl": "Grb prikazuje gore, rudarski vhod, orodje, mavrico in rog obilja; simboli predstavljajo naravo, delo in bogastvo države."
+    }
+  ],
+  "trivia_sl": [
+    "Honduras pomeni Velike globine.",
+    "Ob honduraški obali leži del koralnega grebena.",
+    "Honduras je znan po majevskem mestu Copán."
+  ],
+  "flag_file": "hnd.svg",
+  "crest_file": "hnd.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/hnd.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

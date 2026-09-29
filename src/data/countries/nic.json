@@ -1,0 +1,47 @@
+{
+  "id": "nic",
+  "iso2": "NI",
+  "entity_type": "sovereign_state",
+  "name_sl": "Nikaragva",
+  "name_sl_genitive": "Nikaragve",
+  "capital_sl": "Managua",
+  "region": "central_america",
+  "subregion_sl": "Srednja Amerika",
+  "population": "7,0 M",
+  "language_sl": "Španščina",
+  "currency_sl": "Nikaragvanska kordoba",
+  "coords": {
+    "lat": 12.8654,
+    "lng": -85.2072
+  },
+  "flag_meaning_sl": "Modri pasovi predstavljajo morji, bela pa mir in čistost.",
+  "crest_meaning_sl": "Grb vsebuje trikotnik, pet vulkanov, mavrico, sonce in frigijsko kapo; predstavljajo enakost, združeno Srednjo Ameriko, mir, prihodnost in svobodo.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Modri pasovi predstavljajo morji, bela pa mir in čistost."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Državni znak",
+      "desc_sl": "Grb vsebuje trikotnik, pet vulkanov, mavrico, sonce in frigijsko kapo; predstavljajo enakost, združeno Srednjo Ameriko, mir, prihodnost in svobodo."
+    }
+  ],
+  "trivia_sl": [
+    "Nikaragva je največja država v Srednji Ameriki.",
+    "V njej sta veliki jezeri Nikaragva in Managua.",
+    "Vulkan Masaya je še vedno dejaven."
+  ],
+  "flag_file": "nic.svg",
+  "crest_file": "nic.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/nic.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

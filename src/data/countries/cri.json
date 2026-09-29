@@ -1,0 +1,47 @@
+{
+  "id": "cri",
+  "iso2": "CR",
+  "entity_type": "sovereign_state",
+  "name_sl": "Kostarika",
+  "name_sl_genitive": "Kostarike",
+  "capital_sl": "San José",
+  "region": "central_america",
+  "subregion_sl": "Srednja Amerika",
+  "population": "5,3 M",
+  "language_sl": "Španščina",
+  "currency_sl": "Kostariški kolon",
+  "coords": {
+    "lat": 9.7489,
+    "lng": -83.7534
+  },
+  "flag_meaning_sl": "Modra predstavlja nebo, priložnosti in morje, bela mir, rdeča pa toplino in pogum ljudi.",
+  "crest_meaning_sl": "Grb prikazuje tri vulkane med dvema morjema, dve ladji in sedem zvezd, ki predstavljajo sedem provinc.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Modra predstavlja nebo, priložnosti in morje, bela mir, rdeča pa toplino in pogum ljudi."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Državni znak",
+      "desc_sl": "Grb prikazuje tri vulkane med dvema morjema, dve ladji in sedem zvezd, ki predstavljajo sedem provinc."
+    }
+  ],
+  "trivia_sl": [
+    "Kostarika nima stalne vojske.",
+    "Ime pomeni Bogata obala.",
+    "Kostarika je znana po deževnih gozdovih in številnih živalih."
+  ],
+  "flag_file": "cri.svg",
+  "crest_file": "cri.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/cri.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "blz",
+  "iso2": "BZ",
+  "entity_type": "sovereign_state",
+  "name_sl": "Belize",
+  "name_sl_genitive": "Belize",
+  "capital_sl": "Belize City",
+  "region": "central_america",
+  "subregion_sl": "Srednja Amerika",
+  "population": "0,42 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Belizejski dolar",
+  "coords": {
+    "lat": 17.1899,
+    "lng": -88.4976
+  },
+  "flag_meaning_sl": "Modra predstavlja ljudstvo in morje, rdeča enotnost, 50 listov mahagonija pa leto 1950, ko se je začelo gibanje za neodvisnost.",
+  "crest_meaning_sl": "Državni znak prikazuje dva drvarja, mahagonijevo drevo, ščit z orodjem in ladjo; simboli spominjajo na gozdarstvo in pomorsko trgovino.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Modra predstavlja ljudstvo in morje, rdeča enotnost, 50 listov mahagonija pa leto 1950, ko se je začelo gibanje za neodvisnost."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Državni znak",
+      "desc_sl": "Državni znak prikazuje dva drvarja, mahagonijevo drevo, ščit z orodjem in ladjo; simboli spominjajo na gozdarstvo in pomorsko trgovino."
+    }
+  ],
+  "trivia_sl": [
+    "Belize je edina država v Srednji Ameriki z angleščino kot uradnim jezikom.",
+    "V Belizeju je drugi največji koralni greben na svetu.",
+    "Belize je dom številnih starodavnih majevskih mest."
+  ],
+  "flag_file": "blz.svg",
+  "crest_file": "blz.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/blz.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "guf",
+  "iso2": "GF",
+  "entity_type": "territory",
+  "name_sl": "Francoska Gvajana",
+  "name_sl_genitive": "Francoske Gvajane",
+  "capital_sl": "Cayenne",
+  "region": "south_america",
+  "subregion_sl": "Severovzhodna Južna Amerika",
+  "population": "0,31 M",
+  "language_sl": "Francoščina",
+  "currency_sl": "Evro",
+  "coords": {
+    "lat": 4.9224,
+    "lng": -52.3135
+  },
+  "flag_meaning_sl": "Francoska Gvajana uporablja francosko zastavo; lokalni svet zastopata tudi rumeno-zelena zastava in rdeča zvezda, ki povezujeta naravo, prihodnost in prebivalstvo.",
+  "crest_meaning_sl": "Francoska Gvajana nima samostojnega državnega grba; uporablja znak oziroma logotipe svoje teritorialne skupnosti in francoske republike.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Francoska Gvajana uporablja francosko zastavo; lokalni svet zastopata tudi rumeno-zelena zastava in rdeča zvezda, ki povezujeta naravo, prihodnost in prebivalstvo."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Državni znak",
+      "desc_sl": "Francoska Gvajana nima samostojnega državnega grba; uporablja znak oziroma logotipe svoje teritorialne skupnosti in francoske republike."
+    }
+  ],
+  "trivia_sl": [
+    "Francoska Gvajana je čezmorska regija Francije, ne samostojna država.",
+    "V njej je vesoljsko izstrelišče Kourou.",
+    "Večino ozemlja pokriva amazonski gozd."
+  ],
+  "flag_file": "guf.svg",
+  "crest_file": "guf.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/guf.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

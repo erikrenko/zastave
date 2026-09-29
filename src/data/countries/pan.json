@@ -1,0 +1,47 @@
+{
+  "id": "pan",
+  "iso2": "PA",
+  "entity_type": "sovereign_state",
+  "name_sl": "Panama",
+  "name_sl_genitive": "Paname",
+  "capital_sl": "Panama City",
+  "region": "central_america",
+  "subregion_sl": "Srednja Amerika",
+  "population": "4,5 M",
+  "language_sl": "Španščina",
+  "currency_sl": "Panamski balboa in ameriški dolar",
+  "coords": {
+    "lat": 8.538,
+    "lng": -80.7821
+  },
+  "flag_meaning_sl": "Rdeča in modra predstavljata politični skupini, bela mir, zvezde pa čistost in moč.",
+  "crest_meaning_sl": "Grb prikazuje Panamski prekop, sonce, luno, orožje, rog obilja in orla harpijo; simboli predstavljajo zgodovino, bogastvo in suverenost.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Rdeča in modra predstavljata politični skupini, bela mir, zvezde pa čistost in moč."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Državni znak",
+      "desc_sl": "Grb prikazuje Panamski prekop, sonce, luno, orožje, rog obilja in orla harpijo; simboli predstavljajo zgodovino, bogastvo in suverenost."
+    }
+  ],
+  "trivia_sl": [
+    "Panamski prekop povezuje Atlantski in Tihi ocean.",
+    "Panama je edina država, kjer lahko vidiš sončni vzhod nad Tihim oceanom in zahod nad Atlantikom.",
+    "Orel harpija je panamska nacionalna ptica."
+  ],
+  "flag_file": "pan.svg",
+  "crest_file": "pan.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/pan.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}

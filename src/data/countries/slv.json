@@ -1,0 +1,47 @@
+{
+  "id": "slv",
+  "iso2": "SV",
+  "entity_type": "sovereign_state",
+  "name_sl": "Salvador",
+  "name_sl_genitive": "Salvadorja",
+  "capital_sl": "San Salvador",
+  "region": "central_america",
+  "subregion_sl": "Srednja Amerika",
+  "population": "6,4 M",
+  "language_sl": "Španščina",
+  "currency_sl": "Ameriški dolar",
+  "coords": {
+    "lat": 13.7942,
+    "lng": -88.8965
+  },
+  "flag_meaning_sl": "Modra predstavlja nebo in dve morji, bela pa mir.",
+  "crest_meaning_sl": "Grb ima trikotnik, pet vulkanov, mavrico, sonce in frigijsko kapo; simboli predstavljajo enakost, mir, svobodo in združeno Srednjo Ameriko.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Glavni simbol",
+      "desc_sl": "Modra predstavlja nebo in dve morji, bela pa mir."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Državni znak",
+      "desc_sl": "Grb ima trikotnik, pet vulkanov, mavrico, sonce in frigijsko kapo; simboli predstavljajo enakost, mir, svobodo in združeno Srednjo Ameriko."
+    }
+  ],
+  "trivia_sl": [
+    "Salvador je najmanjša država celinske Amerike.",
+    "Znana je po številnih vulkanih.",
+    "Njeno ime pomeni Odrešenik."
+  ],
+  "flag_file": "slv.svg",
+  "crest_file": "slv.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/slv.svg"
+  ],
+  "last_reviewed": "2026-09-29"
+}
