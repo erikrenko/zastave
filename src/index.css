@@ -54,7 +54,7 @@ header {
 }
 
 .logo { display: flex; align-items: center; }
-.logo-img { height: 48px; width: auto; display: block; }
+.logo-img { height: 52px; width: auto; display: block; }
 
 .nav-tabs { display: flex; background: #F1F5F9; padding: 5px; border-radius: 30px; gap: 6px; }
 .nav-btn { border: none; background: transparent; padding: 8px 20px; border-radius: 25px; font-family: var(--font-heading); font-size: 14px; font-weight: 700; color: var(--text-muted); cursor: pointer; display: flex; align-items: center; gap: 8px; }
@@ -116,7 +116,7 @@ main { flex: 1; position: relative; overflow: hidden; }
   /* Slim header: logo on the left, one hamburger button on the right.
      Tabs and the case toggle move into the dropdown menu. */
    header { padding: 8px 12px; padding-top: calc(8px + env(safe-area-inset-top, 0px)); flex-wrap: nowrap; }
-  .logo-img { height: 36px; }
+  .logo-img { height: 32px; }
   .nav-tabs, .header-actions { display: none; }
 
   .hamburger { display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: none; border-radius: 14px; background: var(--primary-light); color: var(--primary-dark); font-size: 22px; font-weight: 700; cursor: pointer; }
