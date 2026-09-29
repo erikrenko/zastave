@@ -1,47 +1,10 @@
 {
   "id": "vgb",
-  "iso2": "VG",
-  "entity_type": "territory",
-  "name_sl": "Britanski Deviški otoki",
-  "name_sl_genitive": "Britanskih Deviških otokov",
-  "capital_sl": "Road Town",
   "region": "caribbean",
-  "subregion_sl": "Karibi",
-  "population": "0,040 M",
-  "language_sl": "Angleščina",
-  "currency_sl": "Ameriški dolar",
-  "coords": {
-    "lat": 18.4207,
-    "lng": -64.64
-  },
-  "flag_meaning_sl": "Modra zastava z Union Jackom in svetim Ursulom predstavlja britansko povezavo in zaščitnico otokov.",
-  "crest_meaning_sl": "Znak prikazuje sveto Ursulo z enajstimi svetilkami, ki predstavljajo legendo o njenih spremljevalkah.",
-  "hotspots": [
-    {
-      "x": 50,
-      "y": 50,
-      "title_sl": "Glavni simbol",
-      "desc_sl": "Modra zastava z Union Jackom in svetim Ursulom predstavlja britansko povezavo in zaščitnico otokov."
-    },
-    {
-      "x": 50,
-      "y": 50,
-      "title_sl": "Grb ali znak",
-      "desc_sl": "Znak prikazuje sveto Ursulo z enajstimi svetilkami, ki predstavljajo legendo o njenih spremljevalkah."
-    }
-  ],
+  "entity_type": "territory",
   "trivia_sl": [
-    "Karibi so območje številnih otokov, jezikov in kultur.",
-    "Mnogi otoki imajo tropsko podnebje in bogato morsko naravo.",
-    "Karibske zastave pogosto uporabljajo modro, zeleno, belo, rdečo ali rumeno barvo."
-  ],
-  "flag_file": "vgb.svg",
-  "crest_file": "vgb.svg",
-  "crest_available": true,
-  "has_subdivisions_gallery": false,
-  "has_historical_flags": true,
-  "source_urls": [
-    "https://flagcdn.com/vgb.svg"
-  ],
-  "last_reviewed": "2026-09-29"
+    "Britanski Deviški otoki so skupina več kot 60 otokov in čeri.",
+    "Po legendi je otoke obiskal sir Francis Drake.",
+    "Otok Tortola je največji in najbolj naseljen otok."
+  ]
 }
