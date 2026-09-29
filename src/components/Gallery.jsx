@@ -24,8 +24,9 @@ export default function Gallery({ active, countries, onSelect }) {
         {filtered.map((c) => (
           <div className="country-card" key={c.id} onClick={() => onSelect(c.id)}>
             <img className="card-flag" src={flagUrl(c)} alt={c.name_sl} />
-            <h3>{c.name_sl}<StatusBadge country={c} /></h3>
+            <h3>{c.name_sl}</h3>
             <p>🏛️ {c.capital_sl}</p>
+            <StatusBadge country={c} />
           </div>
         ))}
       </div>
