@@ -44,7 +44,7 @@ export default function PassportModal({ country, onClose }) {
           <div className="passport-left">
             <div className="visual-toggle-box">
               <div className="visual-img-container">
-                <img className="visual-img" src={imgSrc} alt={country.name_sl} />
+                <img className="visual-img" src={imgSrc} alt={country.name_sl} onClick={() => setZoomOpen(true)} />
                 <button className="zoom-btn" title="Povečaj sliko" onClick={() => setZoomOpen(true)}>🔎</button>
               </div>
               <div className="visual-switch">
