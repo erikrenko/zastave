@@ -1,0 +1,48 @@
+{
+  "id": "guy",
+  "iso2": "GY",
+  "entity_type": "sovereign_state",
+  "name_sl": "Gvajana",
+  "name_sl_genitive": "Gvajane",
+  "capital_sl": "Georgetown",
+  "region": "south_america",
+  "subregion_sl": "Severovzhodna Južna Amerika",
+  "population": "0,84 M",
+  "language_sl": "Angleščina",
+  "currency_sl": "Gvajanski dolar",
+  "coords": {
+    "lat": 4.8604,
+    "lng": -58.9302
+  },
+  "flag_meaning_sl": "Zlata puščica predstavlja naravne vire in svetlo prihodnost, zelena naravo, bela reke, črna vztrajnost, rdeča pa zagnanost.",
+  "crest_meaning_sl": "Državni znak prikazuje ščit z lotosom, dvema jaguarjema, čelado in simboli rek ter kmetijstva.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Zlata puščica",
+      "desc_sl": "Kaže na svetlo prihodnost in bogastvo države."
+    },
+    {
+      "x": 30,
+      "y": 50,
+      "title_sl": "Zelena",
+      "desc_sl": "Predstavlja gozdove in naravo."
+    }
+  ],
+  "trivia_sl": [
+    "Gvajana je edina južnoameriška država, kjer je uradni jezik angleščina.",
+    "Slavni slap Kaieteur je v Gvajani.",
+    "Večina prebivalcev živi ob atlantski obali."
+  ],
+  "flag_file": "gy.svg",
+  "crest_file": "gy.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/gy.svg",
+    "https://en.wikipedia.org/wiki/Coat_of_arms_of_Guyana"
+  ],
+  "last_reviewed": "2026-09-29"
+}

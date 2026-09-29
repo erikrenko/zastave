@@ -1,0 +1,48 @@
+{
+  "id": "sur",
+  "iso2": "SR",
+  "entity_type": "sovereign_state",
+  "name_sl": "Surinam",
+  "name_sl_genitive": "Surinama",
+  "capital_sl": "Paramaribo",
+  "region": "south_america",
+  "subregion_sl": "Severovzhodna Južna Amerika",
+  "population": "0,65 M",
+  "language_sl": "Nizozemščina",
+  "currency_sl": "Surinamski dolar",
+  "coords": {
+    "lat": 3.9193,
+    "lng": -56.0278
+  },
+  "flag_meaning_sl": "Zelena predstavlja upanje in rodovitnost, bela mir, rdeča napredek in ljubezen, zlata zvezda pa enotnost ljudi.",
+  "crest_meaning_sl": "Državni znak prikazuje ščit z ladjo, palmo in zvezdo ter dva domorodca, ki ga podpirata.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Zlata zvezda",
+      "desc_sl": "Predstavlja enotnost vseh prebivalcev."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Rdeči pas",
+      "desc_sl": "Predstavlja napredek in ljubezen."
+    }
+  ],
+  "trivia_sl": [
+    "Surinam je najmanjša neodvisna država v Južni Ameriki.",
+    "Nizozemščina je njen uradni jezik.",
+    "Velik del države pokrivajo deževni gozdovi."
+  ],
+  "flag_file": "sr.svg",
+  "crest_file": "sr.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/sr.svg",
+    "https://en.wikipedia.org/wiki/Coat_of_arms_of_Suriname"
+  ],
+  "last_reviewed": "2026-09-29"
+}

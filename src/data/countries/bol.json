@@ -1,0 +1,48 @@
+{
+  "id": "bol",
+  "iso2": "BO",
+  "entity_type": "sovereign_state",
+  "name_sl": "Bolivija",
+  "name_sl_genitive": "Bolivije",
+  "capital_sl": "Sucre",
+  "region": "south_america",
+  "subregion_sl": "Andi",
+  "population": "12,7 M",
+  "language_sl": "Španščina, kečuanščina, ajmarščina",
+  "currency_sl": "Boliviano",
+  "coords": {
+    "lat": -16.2902,
+    "lng": -63.5887
+  },
+  "flag_meaning_sl": "Rdeča, rumena in zelena barva predstavljajo pogum, bogastvo države in rodovitno naravo.",
+  "crest_meaning_sl": "Državni znak prikazuje gore, sonce, lamo, pšenico in druge simbole naravnih bogastev ter zgodovine Bolivije.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 17,
+      "title_sl": "Rdeča",
+      "desc_sl": "Spominja na pogum in žrtve ljudi."
+    },
+    {
+      "x": 50,
+      "y": 83,
+      "title_sl": "Zelena",
+      "desc_sl": "Predstavlja rodovitno zemljo in naravo."
+    }
+  ],
+  "trivia_sl": [
+    "Bolivija nima morja.",
+    "V državi je največje slano jezero na svetu Salar de Uyuni.",
+    "Sucre je ustavna prestolnica, La Paz pa sedež vlade."
+  ],
+  "flag_file": "bo.svg",
+  "crest_file": "bo.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/bo.svg",
+    "https://en.wikipedia.org/wiki/Coat_of_arms_of_Bolivia"
+  ],
+  "last_reviewed": "2026-09-29"
+}

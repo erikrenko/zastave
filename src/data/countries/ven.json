@@ -1,0 +1,48 @@
+{
+  "id": "ven",
+  "iso2": "VE",
+  "entity_type": "sovereign_state",
+  "name_sl": "Venezuela",
+  "name_sl_genitive": "Venezuele",
+  "capital_sl": "Caracas",
+  "region": "south_america",
+  "subregion_sl": "Severni Južni Ameriki",
+  "population": "28,6 M",
+  "language_sl": "Španščina",
+  "currency_sl": "Suvereni bolivar",
+  "coords": {
+    "lat": 6.4238,
+    "lng": -66.5897
+  },
+  "flag_meaning_sl": "Rumena predstavlja bogastvo, modra morje in nebo, rdeča pa pogum ter kri, prelito za neodvisnost. Osem zvezd predstavlja zgodovinske pokrajine.",
+  "crest_meaning_sl": "Državni znak prikazuje ščit s pšenico, orožjem, konjem in vencem; simboli pripovedujejo o naravi, miru in boju za svobodo.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Osem zvezd",
+      "desc_sl": "Predstavljajo zgodovinske pokrajine in enotnost države."
+    },
+    {
+      "x": 50,
+      "y": 17,
+      "title_sl": "Rumena",
+      "desc_sl": "Predstavlja sonce in bogastvo dežele."
+    }
+  ],
+  "trivia_sl": [
+    "Venezuela ima Angelov slap, najvišji slap na svetu.",
+    "Ime Venezuela pomeni Mala Benetka.",
+    "Venezuela leži ob Karibskem morju."
+  ],
+  "flag_file": "ve.svg",
+  "crest_file": "ve.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/ve.svg",
+    "https://en.wikipedia.org/wiki/Coat_of_arms_of_Venezuela"
+  ],
+  "last_reviewed": "2026-09-29"
+}

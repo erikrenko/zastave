@@ -1,0 +1,48 @@
+{
+  "id": "col",
+  "iso2": "CO",
+  "entity_type": "sovereign_state",
+  "name_sl": "Kolumbija",
+  "name_sl_genitive": "Kolumbije",
+  "capital_sl": "Bogota",
+  "region": "south_america",
+  "subregion_sl": "Severni Andi",
+  "population": "53,9 M",
+  "language_sl": "Španščina",
+  "currency_sl": "Kolumbijski peso",
+  "coords": {
+    "lat": 4.5709,
+    "lng": -74.2973
+  },
+  "flag_meaning_sl": "Rumena predstavlja bogastvo in sonce, modra morje in nebo, rdeča pa pogum ter kri, prelito za svobodo.",
+  "crest_meaning_sl": "Državni znak prikazuje kondorja, ščit z granatnim jabolkom, rogova obilja in trak z geslom Svoboda in red.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 17,
+      "title_sl": "Rumena",
+      "desc_sl": "Predstavlja sonce in bogastvo dežele."
+    },
+    {
+      "x": 50,
+      "y": 83,
+      "title_sl": "Rdeča",
+      "desc_sl": "Spominja na pogum in boj za svobodo."
+    }
+  ],
+  "trivia_sl": [
+    "Kolumbija je edina južnoameriška država z obalo na Karibskem morju in Tihem oceanu.",
+    "Poimenovana je po Krištofu Kolumbu.",
+    "Kolumbija je znana po kavi in pisanih kolibrijih."
+  ],
+  "flag_file": "co.svg",
+  "crest_file": "co.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/co.svg",
+    "https://en.wikipedia.org/wiki/Coat_of_arms_of_Colombia"
+  ],
+  "last_reviewed": "2026-09-29"
+}

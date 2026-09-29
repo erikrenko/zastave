@@ -1,0 +1,48 @@
+{
+  "id": "per",
+  "iso2": "PE",
+  "entity_type": "sovereign_state",
+  "name_sl": "Peru",
+  "name_sl_genitive": "Peruja",
+  "capital_sl": "Lima",
+  "region": "south_america",
+  "subregion_sl": "Andi",
+  "population": "34,9 M",
+  "language_sl": "Španščina, kečuanščina, ajmarščina",
+  "currency_sl": "Perujski sol",
+  "coords": {
+    "lat": -9.19,
+    "lng": -75.0152
+  },
+  "flag_meaning_sl": "Rdeča barva predstavlja pogum in žrtve, bela pa mir, čistost in pravičnost.",
+  "crest_meaning_sl": "Državni znak prikazuje vikunjo, drevo kininovca in rog obilja, ki predstavljajo živali, rastline in bogastvo Peruja.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Vikunja",
+      "desc_sl": "Predstavlja bogato živalsko naravo Peruja."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Rog obilja",
+      "desc_sl": "Predstavlja bogastvo in darove narave."
+    }
+  ],
+  "trivia_sl": [
+    "Machu Picchu je v Peruju.",
+    "Peru je domovinski kraj krompirja.",
+    "Jezero Titikaka leži visoko v Andih na meji z Bolivijo."
+  ],
+  "flag_file": "pe.svg",
+  "crest_file": "pe.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/pe.svg",
+    "https://en.wikipedia.org/wiki/Coat_of_arms_of_Peru"
+  ],
+  "last_reviewed": "2026-09-29"
+}

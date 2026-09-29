@@ -1,0 +1,48 @@
+{
+  "id": "chl",
+  "iso2": "CL",
+  "entity_type": "sovereign_state",
+  "name_sl": "Čile",
+  "name_sl_genitive": "Čila",
+  "capital_sl": "Santiago",
+  "region": "south_america",
+  "subregion_sl": "Južni stožec",
+  "population": "19,9 M",
+  "language_sl": "Španščina",
+  "currency_sl": "Čilski peso",
+  "coords": {
+    "lat": -35.6751,
+    "lng": -71.543
+  },
+  "flag_meaning_sl": "Modra predstavlja nebo, bela zasnežene Ande, rdeča pa pogum in žrtve v boju za neodvisnost. Bela zvezda predstavlja vodstvo in čast.",
+  "crest_meaning_sl": "Državni znak prikazuje ščit z zvezdo, andskim kondorjem in jelenom huemulom, značilnima živalma Čila.",
+  "hotspots": [
+    {
+      "x": 18,
+      "y": 25,
+      "title_sl": "Bela zvezda",
+      "desc_sl": "Predstavlja čast in vodstvo države."
+    },
+    {
+      "x": 50,
+      "y": 75,
+      "title_sl": "Rdeča",
+      "desc_sl": "Spominja na pogum in žrtve za neodvisnost."
+    }
+  ],
+  "trivia_sl": [
+    "Čile je zelo dolga in ozka država.",
+    "V Čilu leži puščava Atacama, ena najbolj suhih na svetu.",
+    "Velik del države obdajajo Andi in Tihi ocean."
+  ],
+  "flag_file": "cl.svg",
+  "crest_file": "cl.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/cl.svg",
+    "https://en.wikipedia.org/wiki/Coat_of_arms_of_Chile"
+  ],
+  "last_reviewed": "2026-09-29"
+}

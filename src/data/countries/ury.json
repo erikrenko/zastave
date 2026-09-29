@@ -1,0 +1,48 @@
+{
+  "id": "ury",
+  "iso2": "UY",
+  "entity_type": "sovereign_state",
+  "name_sl": "Urugvaj",
+  "name_sl_genitive": "Urugvaja",
+  "capital_sl": "Montevideo",
+  "region": "south_america",
+  "subregion_sl": "Južni stožec",
+  "population": "3,4 M",
+  "language_sl": "Španščina",
+  "currency_sl": "Urugvajski peso",
+  "coords": {
+    "lat": -32.5228,
+    "lng": -55.7658
+  },
+  "flag_meaning_sl": "Deveterim modrim in belim črtam se pridruži Sonce maja, ki predstavlja novo državo in svobodo.",
+  "crest_meaning_sl": "Državni znak ima ovalni ščit s tehtnico, trdnjavo, konjem in bikom; nad njim je Sonce maja.",
+  "hotspots": [
+    {
+      "x": 18,
+      "y": 20,
+      "title_sl": "Sonce maja",
+      "desc_sl": "Predstavlja svobodo in začetek nove države."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Modre črte",
+      "desc_sl": "Spominjajo na nebo in zgodovinske pokrajine."
+    }
+  ],
+  "trivia_sl": [
+    "Urugvaj je najmanjša država na južnoameriški celini.",
+    "Njegovo ime je povezano z reko Urugvaj.",
+    "Nogomet je v Urugvaju zelo priljubljen."
+  ],
+  "flag_file": "uy.svg",
+  "crest_file": "uy.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/uy.svg",
+    "https://en.wikipedia.org/wiki/Coat_of_arms_of_Uruguay"
+  ],
+  "last_reviewed": "2026-09-29"
+}

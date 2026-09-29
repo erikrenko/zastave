@@ -1,0 +1,48 @@
+{
+  "id": "pry",
+  "iso2": "PY",
+  "entity_type": "sovereign_state",
+  "name_sl": "Paragvaj",
+  "name_sl_genitive": "Paragvaja",
+  "capital_sl": "Asunción",
+  "region": "south_america",
+  "subregion_sl": "Notranjost Južne Amerike",
+  "population": "7,1 M",
+  "language_sl": "Španščina, gvaranijščina",
+  "currency_sl": "Gvaranij",
+  "coords": {
+    "lat": -23.4425,
+    "lng": -58.4438
+  },
+  "flag_meaning_sl": "Rdeča, bela in modra so barve poguma, miru in svobode. Na sprednji strani je državni pečat, na zadnji pa pečat zakladnice.",
+  "crest_meaning_sl": "Na sprednjem pečatu je zvezda z vencem in napis Republika Paragvaj; na zadnjem je lev, ki varuje kapo svobode.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Zvezda",
+      "desc_sl": "Spominja na osamosvojitev Paragvaja."
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "title_sl": "Lev",
+      "desc_sl": "Predstavlja pogum in zaščito svobode."
+    }
+  ],
+  "trivia_sl": [
+    "Paragvaj je ena od dveh južnoameriških držav brez morja.",
+    "Gvaranijščina je uradni jezik skupaj s španščino.",
+    "Paragvaj ima zastavo z različnima znakoma na obeh straneh."
+  ],
+  "flag_file": "py.svg",
+  "crest_file": "py.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/py.svg",
+    "https://en.wikipedia.org/wiki/Coat_of_arms_of_Paraguay"
+  ],
+  "last_reviewed": "2026-09-29"
+}

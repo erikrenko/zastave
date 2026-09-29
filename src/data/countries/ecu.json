@@ -1,0 +1,48 @@
+{
+  "id": "ecu",
+  "iso2": "EC",
+  "entity_type": "sovereign_state",
+  "name_sl": "Ekvador",
+  "name_sl_genitive": "Ekvadorja",
+  "capital_sl": "Quito",
+  "region": "south_america",
+  "subregion_sl": "Severni Andi",
+  "population": "18,4 M",
+  "language_sl": "Španščina, kečuanščina",
+  "currency_sl": "Ameriški dolar",
+  "coords": {
+    "lat": -1.8312,
+    "lng": -78.1834
+  },
+  "flag_meaning_sl": "Rumena predstavlja sonce in bogastvo, modra nebo in morje, rdeča pa pogum ter žrtve za neodvisnost.",
+  "crest_meaning_sl": "V središču je gora Chimborazo z reko, ladjo, soncem in kondorjem. Simboli pripovedujejo o naravi, trgovini in svobodi.",
+  "hotspots": [
+    {
+      "x": 50,
+      "y": 25,
+      "title_sl": "Kondor",
+      "desc_sl": "Predstavlja moč in svobodo."
+    },
+    {
+      "x": 50,
+      "y": 70,
+      "title_sl": "Gora Chimborazo",
+      "desc_sl": "Predstavlja mogočne gore Ekvadorja."
+    }
+  ],
+  "trivia_sl": [
+    "Ekvador pomeni ekvator.",
+    "Galapaško otočje pripada Ekvadorju.",
+    "Quito je eno najvišjih glavnih mest na svetu."
+  ],
+  "flag_file": "ec.svg",
+  "crest_file": "ec.svg",
+  "crest_available": true,
+  "has_subdivisions_gallery": false,
+  "has_historical_flags": true,
+  "source_urls": [
+    "https://flagcdn.com/ec.svg",
+    "https://en.wikipedia.org/wiki/Coat_of_arms_of_Ecuador"
+  ],
+  "last_reviewed": "2026-09-29"
+}
